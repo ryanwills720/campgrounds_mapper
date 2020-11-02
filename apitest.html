@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+</head>
+<body>
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
+<script>
+var URL = "https://developer.nps.gov/api/v1/parks?parkCode=acad&api_key=dhAHMjbJ35wMczQAt4WAxuNGeYAujaFvC4ov1yQt"
+
+$.ajax({
+url: URL,
+method: "GET"
+}).then(function(response) {
+console.log(response)
+
+});
+
+</script>
+</html>
