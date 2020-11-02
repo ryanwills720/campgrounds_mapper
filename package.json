@@ -4,7 +4,9 @@
   "description": "A National Parks mapping site that will show relevant non-National Park Service campgrounds nearby.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   "homepage": "https://github.com/ryanwills720/campgrounds_mapper#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "heroku": "^7.47.0",
     "mysql2": "^2.2.5",
     "sequelize": "^6.3.5"
   },
