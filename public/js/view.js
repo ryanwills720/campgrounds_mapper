@@ -19,7 +19,8 @@ $("#nationalParks").on("change", function (event) {
         url: URL,
         method: "GET"
     }).then(function (response) {
-
+        console.log(response.data[0].addresses[0]) 
+        
         var parkName = response.data[0].fullName;
         var description = response.data[0].description;
 
