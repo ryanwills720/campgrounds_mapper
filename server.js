@@ -1,4 +1,6 @@
 var express = require("express");
+var exphbs = require("express-handlebars");
+var mysql = require("mysql");
 
 // Sets up the Express App
 // =============================================================
@@ -15,15 +17,17 @@ app.use(express.json());
 // Static directory
 app.use(express.static("public"));
 
+// Set Handlebars:
+var exphbs = require("express-handlebars");
+
+app.engine("handlebars", exphbs({ defaultLayout: "main" }));
+app.set("view engine", "handlebars");
+
 // Routes
 // =============================================================
-
-// app.get("/", function(req, res) {  
-//   res.sendFile(path.join(__dirname, "Map/map.html"));
-// });
-
-require("./routes/html-routes.js")(app);
+// require("./routes/html-routes.js")(app);
 require("./routes/api-routes.js")(app);
+
 // Syncing our sequelize models and then starting our Express app
 // =============================================================
 db.sequelize.sync().then(function() {
