@@ -1,23 +1,17 @@
-// *********************************************************************************
-// api-routes.js - this file offers a set of routes for displaying and saving data to the db
-// *********************************************************************************
 
-// Dependencies
-// =============================================================
-
-// Requiring our Todo model
 var db = require("../models");
 var express = require("express");
 
 // Sets up the Express App
 // =============================================================
 var app = express();
-
-
 // Routes
 // =============================================================
 module.exports = function(app) {
-
+  app.get("/", function(req, res) {
+    res.render("index")
+  });
+  
   // If a user sends data to add a new character..
   // GET route for getting all of the todos
   app.get("/api/ratings", function(req, res) {
