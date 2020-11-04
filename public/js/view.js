@@ -11,6 +11,7 @@ for (var i = 0; i < nationalParks.length; i++) {
 
 $("#nationalParks").on("change", function (event) {
     // var URL = "https://developer.nps.gov/api/v1/parks?&api_key=dhAHMjbJ35wMczQAt4WAxuNGeYAujaFvC4ov1yQt"
+    var parkFullname = $("#nationalParks option:selected").text().trim();
 
     var parkCode = $("#nationalParks option:selected").val().trim();
     var URL = "https://developer.nps.gov/api/v1/parks?parkCode=" + parkCode + "&api_key=dhAHMjbJ35wMczQAt4WAxuNGeYAujaFvC4ov1yQt"
@@ -19,6 +20,9 @@ $("#nationalParks").on("change", function (event) {
         url: URL,
         method: "GET"
     }).then(function (response) {
+        console.log(response.data[0].addresses[0])
+        console.log(response.data[0].latitude)
+        console.log(response.data[0].longitude)
 
         var parkName = response.data[0].fullName;
         var description = response.data[0].description;
