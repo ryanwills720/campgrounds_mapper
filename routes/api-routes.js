@@ -1,5 +1,5 @@
 
-var db = require("../models");
+var db = require("../models/rating");
 var express = require("express");
 
 // Sets up the Express App
@@ -14,7 +14,7 @@ module.exports = function(app) {
   
   // If a user sends data to add a new character..
   // GET route for getting all of the todos
-  app.get("/api/ratings", function(req, res) {
+  app.get("/api/campgrounds", function(req, res) {
     // Write code here to retrieve all of the todos from the database and res.json them
     db.Rating.findAll({}) .then(data=>{
       console.log(data);

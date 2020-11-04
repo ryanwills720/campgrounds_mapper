@@ -7,8 +7,8 @@ var mysql = require("mysql");
 var app = express();
 var PORT = process.env.PORT || 8081;
 
-// Requiring our models for syncing
-var db = require("./models");
+// // Requiring our models for syncing
+// var db = require("./models");
 
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
@@ -30,10 +30,14 @@ require("./routes/api-routes.js")(app);
 
 // Syncing our sequelize models and then starting our Express app
 // =============================================================
-db.sequelize.sync().then(function() {
+var routes = require("./controllers/ratingController.js");
+var orm = require("./config/orm");
 
-  app.listen(PORT, function() {
-    console.log("App listening on PORT " + PORT);
-  });
-});
+orm.all();
+app.use(routes);
+// Start our server so that it can begin listening to client requests.
+app.listen(PORT, function() {
+  // Log (server-side) when our server has started
+  console.log("Server listening on: http://localhost:" + PORT);
+})
 
