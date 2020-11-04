@@ -43,27 +43,28 @@ var orm = {
       // cb(result);
     });
   },
-  
-  // create: function(table, cols, vals, cb) {
-  //   var queryString = "INSERT INTO " + table;
 
-  //   queryString += " (";
-  //   queryString += cols.toString();
-  //   queryString += ") ";
-  //   queryString += "VALUES (";
-  //   queryString += printQuestionMarks(vals.length);
-  //   queryString += ") ";
+  create: function(table, cols, vals, cb) {
+    var queryString = "INSERT INTO " + table;
 
-  //   console.log(queryString);
+    queryString += " (";
+    queryString += cols.toString();
+    queryString += ") ";
+    queryString += "VALUES (";
+    queryString += printQuestionMarks(vals.length);
+    queryString += ") ";
 
-  //   connection.query(queryString, vals, function(err, result) {
-  //     if (err) {
-  //       throw err;
-  //     }
+    console.log(queryString);
 
-  //     cb(result);
-  //   });
-  // },
+    connection.query(queryString, vals, function(err, result) {
+      if (err) {
+        throw err;
+      }
+
+      cb(result);
+    });
+  }
+
   // An example of objColVals would be {name: panther, sleepy: true}
   // update: function(table, objColVals, condition, cb) {
   //   var queryString = "UPDATE " + table;

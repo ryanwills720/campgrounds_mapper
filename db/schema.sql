@@ -18,3 +18,7 @@ PRIMARY KEY (id)
 
 commit;
 SELECT * FROM campgrounds;
+
+CREATE TABLE ratings (
+    id
+)
