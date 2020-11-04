@@ -17,19 +17,49 @@ function myMap() {
 var mapProp= {
   center:new google.maps.LatLng(39.833333,-98.583333),
   zoom:4,
-  // mapTypeId: google.maps.MapTypeId.HYBRID,
 };
 
 var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 
-const image = "tents.png";
 
 var marker = new google.maps.Marker({
   // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
-  position: {lat:35.514706, lng:-89.912506},
+  position: {lat:39.833333, lng:-98.583333},
   map:map,
-  icon: image
 })
+
+var marker = new google.maps.Marker({
+  // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
+  position: {lat:39.933333, lng:-99.583333},
+  map:map,
+})
+
+function addMarker(props){
+const newMarker = new google.maps.Marker({
+  // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
+  position: props.coords,
+  map:map,
+  icon: props.iconImage
+
+})
+}
+
+addMarker({
+  coords: {lat:40.42977467, lng:-78.57431622},
+  iconImage: "tree.png"
+  });
+addMarker({
+  coords: {lat:35.514706, lng:-89.912506},
+  iconImage: "tents.png"
+  });
+
+google.maps.event.addListener(marker,'click',function() {
+  var pos = map.getZoom();
+  map.setZoom(9);
+  map.setCenter(marker.getPosition());
+  window.setTimeout(function() {map.setZoom(pos);},3000);
+});
+
 };
 
 
