@@ -6,8 +6,8 @@ DROP TABLE campgrounds;
 
 CREATE TABLE campgrounds (
 id INT NOT NULL AUTO_INCREMENT,
-longitude VARCHAR(255) NOT NULL,
-latitude VARCHAR(255) NOT NULL, 
+longitude DECIMAL(10,8) NOT NULL,
+latitude DECIMAL(10,8) NOT NULL, 
 name VARCHAR(255) NOT NULL,
 phone VARCHAR(25),
 dates_open VARCHAR(255),
