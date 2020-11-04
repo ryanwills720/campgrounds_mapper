@@ -18,3 +18,4 @@ PRIMARY KEY (id)
 
 commit;
 SELECT * FROM campgrounds;
+
