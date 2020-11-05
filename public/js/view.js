@@ -1,6 +1,3 @@
-
-
-
 for (var i = 0; i < nationalParks.length; i++) {
     $("#nationalParks").append(
         `<option value="${nationalParks[i].key}">${nationalParks[i].name}</option>`

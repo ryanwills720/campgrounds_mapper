@@ -31,8 +31,8 @@
         <form class="create-form">
         
           <div class="form-group">
-            <label for="rating">Rating for this campsite</label>
-            <input type="text" id="rating" name="name">
+            <label for="rating-val">Rating for this campsite</label>
+            <input type="text" id="rating-val" name="name">
           </div>
         
           <button type="submit">Add Rating</button>
@@ -93,7 +93,7 @@ function myMap() {
       // NEEd to figure out how to define latitude and longitude in the right scope.
       var latitude = $(this).find("#lat").val()
       var longitude = $(this).find("#long").val()
-      debugger;
+      //debugger;
       addMarker({
         coords: { lat: latitude, lng: longitude },
       });
