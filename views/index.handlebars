@@ -20,6 +20,8 @@
         <form class="create-form">
         
           <div class="form-group">
+
+
             <label for="rating">Rating for this campsite</label>
             <input type="text" id="rating" name="name">
           </div>
@@ -114,15 +116,106 @@ function myMap() {
     });
 
     $(".location").each((index) => {
+
       //debugger;
 
       // NEEd to figure out how to define latitude and longitude in the right scope.
-      var latitude = $(this).find("#lat").val()
-      var longitude = $(this).find("#long").val()
-      debugger;
-      addMarker({
-        coords: { lat: latitude, lng: longitude },
-      });
+     // var latitude = $(this).find("#lat").val()
+     // var longitude = $(this).find("#long").val()
+     // debugger;
+     // addMarker({
+     //   coords: { lat: latitude, lng: longitude },
+    //  });
+
+
+      //debugger;
+
+      // NEEd to figure out how to define latitude and longitude in the right scope.
+     // var latitude = $(this).find("#lat").val()
+     // var longitude = $(this).find("#long").val()
+      //debugger;
+    //  addMarker({
+     //   coords: { lat: latitude, lng: longitude },
+    //  });
+
+      // console.log(index)
+      // below we are finding all the lat and lng data in the html 
+      console.log(this.lati)
+      console.log(this.long)
+
+      var latitude = this.lati[index].innerHTML
+      // console.log(this.lati[index].innerHTML)
+      var longitude = this.long[index].innerHTML
+
+      // here we are looping through everything that is lati
+      var latitudeArray = this.lati
+      for (i = 0; i < latitudeArray.length; i++) {
+        // console.log(latitudeArray[i].innerHTML)
+
+      }
+      // here we are looping though everything that is long
+      var longitudeArray = this.long
+      for (i = 0; i < longitudeArray.length; i++) {
+        //  console.log(longitudeArray[i].innerHTML)
+
+      }
+      var htmlLat = this.lati[0].innerHTML
+      var htmlLong = this.long[0].innerHTML
+      // console.log(this.lati[0].innerHTML)
+
+      var marker = new google.maps.Marker({
+        // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
+        position: {
+          lat: parseFloat(htmlLat),
+          lng: parseFloat(htmlLong)
+        },
+        map: map,
+        icon: "tents.png"
+      })
+
+      var htmlLat1 = this.lati[1].innerHTML
+      var htmlLong1 = this.long[1].innerHTML
+
+
+      var marker = new google.maps.Marker({
+        // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
+        position: {
+          lat: parseFloat(htmlLat1),
+          lng: parseFloat(htmlLong1)
+        },
+        map: map,
+        icon: "tents.png"
+      })
+
+      var htmlLat2 = this.lati[2].innerHTML
+      var htmlLong2 = this.long[2].innerHTML
+
+
+      var marker = new google.maps.Marker({
+        // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
+        position: {
+          lat: parseFloat(htmlLat2),
+          lng: parseFloat(htmlLong2)
+        },
+        map: map,
+        icon: "tents.png"
+      })
+
+      var htmlLat3 = this.lati[3].innerHTML
+      var htmlLong3 = this.long[3].innerHTML
+
+
+      var marker = new google.maps.Marker({
+        // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
+        position: {
+          lat: parseFloat(htmlLat3),
+          lng: parseFloat(htmlLong3)
+        },
+        map: map,
+        icon: "tents.png"
+      })
+
+
       // create new marker using lat and long
     });
 

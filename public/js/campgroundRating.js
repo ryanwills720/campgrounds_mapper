@@ -1,22 +1,23 @@
 $(function() {
-  
     $(".create-form").on("submit", function(event) {
       // Make sure to preventDefault on a submit event.
       event.preventDefault();
-  
+      
+      // var name = $(".site-name").val();
+      // console.log(name);
+      
       var newRating = {
-        rating: $("#rating").val().trim(),
+        camp_name: name,
+        rating: $("#rating-val").val().trim(),
       };
   
       // Send the POST request.
-      $.ajax("/api/campgrounds", {
+      $.ajax("/api/ratings", {
         type: "POST",
         data: newRating
       }).then(
         function() {
           console.log("created new rating");
-          // Reload the page to get the updated list
-          location.reload();
         }
       );
     });

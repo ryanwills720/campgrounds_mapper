@@ -37,9 +37,14 @@ module.exports = function(app) {
 
   // POST route for saving a new todo. We can create todo with the data in req.body
   app.post("/api/ratings", function(req, res) {
-    // Write code here to create a new todo and save it to the database
-    // and then res.json back the new todo to the user
-    db.Rating.create(req.body).then(results => res.json(results));
+    rating.create([
+      "camp_name", "rating"
+    ], [
+      req.body.camp_name, req.body.rating
+    ], function(result) {
+      // Send back the ID of the new quote
+      res.json({ id: result.insertId });
+    });
   });
 
 };

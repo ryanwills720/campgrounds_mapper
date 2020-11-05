@@ -1,12 +1,12 @@
+SELECT * FROM campgrounds;
 USE ratings_db;
 DROP TABLE ratings;
 
 CREATE TABLE ratings (
-    id int NOT NULL,
+    id int NOT NULL AUTO_INCREMENT,
     camp_name VARCHAR(25),
     rating VARCHAR(25),
-    camp_id int NOT NULL,
-    FOREIGN KEY (camp_id) REFERENCES campgrounds(id)
+    PRIMARY KEY (id)
 );
 
 select * from campgrounds;
