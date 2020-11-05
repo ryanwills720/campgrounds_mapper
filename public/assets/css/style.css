@@ -8,3 +8,25 @@
     padding: 20px;
     border: 1px solid #ccc;
 }
+
+/* serious */
+#navbar {
+    background-color: #683B2B;
+}
+
+#navbarText {
+    color: #FAF6F2;
+}
+
+.np {
+    background-color: #DED1BD;
+}
+
+#userReviews {
+    background-color: #FAF6F2;
+}
+
+#activities {
+    background-color: #FAF6F2;
+}
+
