@@ -1,32 +1,42 @@
-<h1>National Park and Campsite Map</h1>
-
-<div id="googleMap" style="width:700px;height:500px;"></div>
-
-<div class="row">
-  <div class="container np">
-    <h2>Pick a National Park</h2>
-    <select name="nationalParks" id="nationalParks" class="select-dropdown"></select>
-    <div id="np-view"></div>
-  </div>
-
-  <div id="activities">
+<nav id="navbar" class="navbar navbar-light">
+  <span id="navbarText" class="navbar-brand mb-0 h1">National Parks and Campsites Mapper</span>
+</nav>
+<main>
+  <article id="mapAndDropdowns" class="container col">
+    <section class="row">
+      <div class="col-5 np">
+        <text>Choose a National Park</text>
+        <select name="nationalParks" id="nationalParks"
+          class="select-dropdown btn btn-success dropdown-toggle"></select>
+        <div id="np-view"></div>
+      </div>
+      {{!-- not sure what this is for --}}
+      {{!-- <div id="activities">
     <div id="activity-view"></div>
-  </div>
+    </div> --}}
 
-  <div class="container np">
-    <h2>Pick a state and search campsites</h2>
-    <select name="statePick" id="statePick" class="select-dropdown"></select>
-    <div id="state-view"></div>
-  </div>
+      <div class="col np">
+        <text>Pick a state to search campsites</text>
+        <select name="statePick" id="statePick" class="select-dropdown btn btn-secondary dropdown-toggle"></select>
+        {{!-- <div id="state-view"></div> --}}
+      </div>
+    </section>
+    <section class="row">
+      <div id="googleMap" style="width:700px;height:500px;" class="col-6"></div>
+      <article class="col-6" id="userReviews"> This is where the user reviews will go</article>
 
-  <div id="activities">
+    </section>
+  </article>
+  <article id="activities" class="container">
+    
     <ul>
       {{#each campgrounds}}
       <li>
         <p>Campsite Name: {{this.name}}</p>
         <p>State: {{this.state}}</p>
         <p class="location">Location: <span id="lati">{{this.latitude}}</span>, <span
-            id="long">{{this.longitude}}</span></p>
+            id="long">{{this.longitude}}</span>
+        </p>
 
         <form class="create-form">
 
@@ -41,9 +51,9 @@
 
       {{/each}}
     </ul>
-  </div>
-</div>
+  </article>
 
+</main>
 <script>
   function myMap() {
     var mapProp = {
@@ -53,7 +63,7 @@
 
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 
-// for whatever reason, google maps gets screwed up if I try to delete this marker.
+    // for whatever reason, google maps gets screwed up if I try to delete this marker.
     var marker = new google.maps.Marker({
       // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
       position: { lat: 39.833333, lng: -98.583333 },
@@ -105,7 +115,7 @@
           lng: parseFloat(htmlLong)
         },
         map: map,
-         icon: "tents.png"
+        icon: "tents.png"
       })
 
       var htmlLat1 = this.lati[1].innerHTML
@@ -119,7 +129,7 @@
           lng: parseFloat(htmlLong1)
         },
         map: map,
-         icon: "tents.png"
+        icon: "tents.png"
       })
 
       var htmlLat2 = this.lati[2].innerHTML
@@ -133,7 +143,7 @@
           lng: parseFloat(htmlLong2)
         },
         map: map,
-         icon: "tents.png"
+        icon: "tents.png"
       })
 
       var htmlLat3 = this.lati[3].innerHTML
