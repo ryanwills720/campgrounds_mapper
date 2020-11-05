@@ -41,6 +41,8 @@
         <form class="create-form">
 
           <div class="form-group">
+
+
             <label for="rating">Rating for this campsite</label>
             <input type="text" id=`{{this.id}}` name="name">
           </div>
@@ -83,6 +85,17 @@
 
 
     $(".location").each((index) => {
+
+      //debugger;
+
+      // NEEd to figure out how to define latitude and longitude in the right scope.
+     // var latitude = $(this).find("#lat").val()
+     // var longitude = $(this).find("#long").val()
+      //debugger;
+    //  addMarker({
+     //   coords: { lat: latitude, lng: longitude },
+    //  });
+
       // console.log(index)
       // below we are finding all the lat and lng data in the html 
       console.log(this.lati)
@@ -159,8 +172,6 @@
         map: map,
         icon: "tents.png"
       })
-
-
 
       // create new marker using lat and long
     });
