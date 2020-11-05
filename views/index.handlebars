@@ -1,95 +1,119 @@
 <h1>National Park and Campsite Map</h1>
 
-
 <div id="googleMap" style="width:700px;height:500px;"></div>
 
-    <div class="container np">
-        <h2>Pick a National Park</h2>
-        <select name="nationalParks" id="nationalParks" class="select-dropdown"></select>
-        <div id="np-view"></div>
-    </div> 
-    <div id="activities">
+<div class="row">
+  <div class="container np">
+    <h2>Pick a National Park</h2>
+    <select name="nationalParks" id="nationalParks" class="select-dropdown"></select>
+    <div id="np-view"></div>
+  </div>
 
-        <div id="activity-view"></div>
+  <div id="activities">
+    <div id="activity-view"></div>
+  </div>
+
+  <div class="container np">
+    <h2>Pick a state and search campsites</h2>
+    <select name="statePick" id="statePick" class="select-dropdown"></select>
+    <div id="state-view"></div>
+  </div>
+
+  <div id="activities">
+    <ul>
+      {{#each campgrounds}}
+      <li>
+        <p>ID: {{this.id}}</p>
+        <p>Campsite Name: {{this.name}}</p>
+        <p>State: {{this.state}}</p>
+        <p class="location">Location: <span id="lat">{{this.latitude}}</span>, <span class="long">{{this.longitude}}</span></p>
+        
+        <form class="create-form">
+        
+          <div class="form-group">
+            <label for="rating">Rating for this campsite</label>
+            <input type="text" id="rating" name="name">
+          </div>
+        
+          <button type="submit">Add Rating</button>
+        </form>
+        </li>
+      
+      {{/each}}
+        </ul>
+        </div>
     </div>
+
 <script>
 function myMap() {
-var mapProp= {
-  center:new google.maps.LatLng(39.833333,-98.583333),
-  zoom:4,
-};
+    var mapProp = {
+      center: new google.maps.LatLng(39.833333, -98.583333),
+      zoom: 4,
+    };
 
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 
 
-var marker = new google.maps.Marker({
-  // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
-  position: {lat:39.833333, lng:-98.583333},
-  map:map,
-})
+    var marker = new google.maps.Marker({
+      // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
+      position: { lat: 39.833333, lng: -98.583333 },
+      map: map,
+    })
 
-var marker = new google.maps.Marker({
-  // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
-  position: {lat:39.933333, lng:-99.583333},
-  map:map,
-})
 
-function addMarker(props){
-const newMarker = new google.maps.Marker({
-  // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
-  position: props.coords,
-  map:map,
-  icon: props.iconImage
+    function addMarker(props) {
+      const newMarker = new google.maps.Marker({
+        // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
+        position: props.coords,
+        map: map,
+        icon: props.iconImage
 
-})
-}
+      });
+    };
 
-addMarker({
-  coords: {lat:40.42977467, lng:-78.57431622},
-  iconImage: "tree.png"
+    addMarker({
+      coords: { lat: 40.42977467, lng: -78.57431622 },
+
+    });
+    addMarker({
+      coords: { lat: 35.514706, lng: -89.912506 },
+
+    });
+
+    google.maps.event.addListener(marker, 'click', function () {
+      var pos = map.getZoom();
+      map.setZoom(9);
+      map.setCenter(marker.getPosition());
+      window.setTimeout(function () { map.setZoom(pos); }, 3000);
+    });
+
+    $(".location").each((index) => {
+      //debugger;
+
+      // NEEd to figure out how to define latitude and longitude in the right scope.
+      var latitude = $(this).find("#lat").val()
+      var longitude = $(this).find("#long").val()
+      debugger;
+      addMarker({
+        coords: { lat: latitude, lng: longitude },
+      });
+      // create new marker using lat and long
+    });
+
+  };
+
+  // once the document loads...
+  // grab all of the lats and longs of each camp site from the html
+  // create a marker using those lats and longs.
+  $(document).ready(() => {
+    
   });
-addMarker({
-  coords: {lat:35.514706, lng:-89.912506},
-  iconImage: "tents.png"
-  });
-
-google.maps.event.addListener(marker,'click',function() {
-  var pos = map.getZoom();
-  map.setZoom(9);
-  map.setCenter(marker.getPosition());
-  window.setTimeout(function() {map.setZoom(pos);},3000);
-});
-
-};
+   
 
 
 </script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNSFmU_Tr3OE3j0g1xAXhLwrQC_h1fupA&callback=myMap"></script>
 
-<ul>
-  {{#each cats}}
-    {{#unless sleepy}}
-      {{> cats/cat-block sleep=true}}
-    {{/unless}}
-  {{/each}}
-</ul>
 
-<h2>Cats that are sleepy!</h2>
-
-<ul>
-  {{#each cats}}
-    {{#if sleepy}}
-      {{> cats/cat-block sleep=false}}
-    {{/if}}
-  {{/each}}
-</ul>
-
-<h2>Add a Cat</h2>
-<form class="create-form">
-
-  <div class="form-group">
-    <label for="ca">Cat Name:</label>
-    <input type="text" id="ca" name="name">
-  </div>
 

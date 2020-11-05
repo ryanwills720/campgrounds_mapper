@@ -33,16 +33,34 @@ function objToSql(ob) {
 
 
 var orm = {
-  all: function() {
-    var queryString = "SELECT * FROM campgrounds WHERE state = ? and city = ?"
-    connection.query(queryString, ["IL", "Oakland"], function(err, result) {
+  all: function(cb) {
+    var queryString = "SELECT * FROM campgrounds WHERE state = ? order by rand() LIMIT 1,4"
+    connection.query(queryString, ["IL"], function(err, result) {
       if (err) {
         throw err;
       }
-      console.log(result);
-      // cb(result);
+      // console.log(result);
+      cb(result);
     });
   },
+
+  campgroundsByState: function(state, cb) {
+    console.log(state);
+    var queryString = "SELECT * FROM campgrounds WHERE state = ? order by rand() LIMIT 1,4"
+    connection.query(queryString, [state], function(err, result) {
+      if (err) {
+        throw err;
+      }
+      cb(result);
+    });
+  },
+//   all: async function () {
+//     var queryString = "SELECT * FROM campgrounds WHERE state = ? order by rand() LIMIT 1,15";
+//     let data = await connection.query(queryString, ["IL"]);
+//     console.log('=========================');
+//     console.log(data);
+//     console.log('==========================');
+//   },
 
   create: function(table, cols, vals, cb) {
     var queryString = "INSERT INTO " + table;

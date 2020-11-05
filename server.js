@@ -25,16 +25,16 @@ app.set("view engine", "handlebars");
 
 // Routes
 // =============================================================
-// require("./routes/html-routes.js")(app);
-require("./routes/api-routes.js")(app);
 
+require("./routes/api-routes.js")(app);
+// require("./controllers/ratingController")(app)
 // Syncing our sequelize models and then starting our Express app
 // =============================================================
-var routes = require("./controllers/ratingController.js");
-var orm = require("./config/orm");
+// var routes = require("./controllers/ratingController.js");
+// var orm = require("./config/orm");
 
-orm.all();
-app.use(routes);
+// orm.all();
+// app.use(routes);
 // Start our server so that it can begin listening to client requests.
 app.listen(PORT, function() {
   // Log (server-side) when our server has started

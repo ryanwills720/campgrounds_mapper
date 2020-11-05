@@ -1,4 +1,4 @@
-// var nationalParks = require('./npArray')
+
 
 
 for (var i = 0; i < nationalParks.length; i++) {
@@ -7,11 +7,16 @@ for (var i = 0; i < nationalParks.length; i++) {
     )
 }
 
+for (var i = 0; i < stateCode.length; i++) {
+    $("#statePick").append(
+        `<option value="${stateCode[i]}">${stateCode[i]}</option>`
+    )
+}
+
 // need to update this to be on backend
 
 $("#nationalParks").on("change", function (event) {
     // var URL = "https://developer.nps.gov/api/v1/parks?&api_key=dhAHMjbJ35wMczQAt4WAxuNGeYAujaFvC4ov1yQt"
-    var parkFullname = $("#nationalParks option:selected").text().trim();
 
     var parkCode = $("#nationalParks option:selected").val().trim();
     var URL = "https://developer.nps.gov/api/v1/parks?parkCode=" + parkCode + "&api_key=dhAHMjbJ35wMczQAt4WAxuNGeYAujaFvC4ov1yQt"
@@ -46,4 +51,10 @@ $("#nationalParks").on("change", function (event) {
         allActivities();
     });
 
+});
+
+$("#statePick").on("change", function (event) {
+    var stateSelected = $("#statePick option:selected").val().trim();
+    let query = `?state=${stateSelected}`
+    document.location.search = query;
 });
