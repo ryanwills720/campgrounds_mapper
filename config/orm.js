@@ -33,13 +33,15 @@ function objToSql(ob) {
 
 
 var orm = {
-  all: function() {
+  allByStateCity: function(state, city, cb) {
+    console.log(city,state);
     var queryString = "SELECT * FROM campgrounds WHERE state = ? and city = ?"
-    connection.query(queryString, ["IL", "Oakland"], function(err, result) {
+    connection.query(queryString, [state, city], function(err, result) {
       if (err) {
         throw err;
       }
       console.log(result);
+      console.log("hi");
       // cb(result);
     });
   },
@@ -63,7 +65,21 @@ var orm = {
 
       cb(result);
     });
-  }
+  },
+// need to select all cities from where state = ?
+allCitiesByState: function(state, cb) {
+  console.log(state);
+  var queryString = "SELECT city FROM campgrounds WHERE state = ?"
+  connection.query(queryString, [state], function(err, result) {
+    if (err) {
+      throw err;
+    }
+    console.log(result);
+    console.log("hi");
+    // cb(result);
+  });
+},
+
 
   // An example of objColVals would be {name: panther, sleepy: true}
   // update: function(table, objColVals, condition, cb) {
