@@ -34,7 +34,7 @@ function objToSql(ob) {
 
 var orm = {
   all: function(cb) {
-    var queryString = "SELECT * FROM campgrounds WHERE state = ? order by rand() LIMIT 1,4"
+    var queryString = "SELECT * FROM campgrounds WHERE state = ? order by rand() LIMIT 1,10"
     connection.query(queryString, ["IL"], function(err, result) {
       if (err) {
         throw err;
@@ -46,7 +46,7 @@ var orm = {
 
   campgroundsByState: function(state, cb) {
     console.log(state);
-    var queryString = "SELECT * FROM campgrounds WHERE state = ? order by rand() LIMIT 1,4"
+    var queryString = "SELECT * FROM campgrounds WHERE state = ? order by rand() LIMIT 1,10"
     connection.query(queryString, [state], function(err, result) {
       if (err) {
         throw err;

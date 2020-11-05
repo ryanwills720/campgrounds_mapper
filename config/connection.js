@@ -8,7 +8,7 @@ if (process.env.JAWSDB_URL){
   connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'CerpinTaxt',
+    password: 'password',
     database: 'ratings_db'
   });
 }

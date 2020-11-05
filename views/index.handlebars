@@ -1,10 +1,10 @@
 <h1></h1>
 
-<div class="container">
+<div class="container np">
     <div class="row">
     <div class="col">
         <div class="container np">
-    <h2>Pick a state and search campsites</h2>
+    <h3>Pick a state and search campsites</h3>
     <select name="statePick" id="statePick" class="select-dropdown"></select>
     <div id="state-view"></div>
   </div>
@@ -39,26 +39,23 @@
       <div id="googleMap" style="width:700px;height:500px;"></div>
     </div>
     <div class="col">
-      <table class="table table-striped">
-  <thead>
-    <tr>
-      <th scope="col">Campground </th>
-    </tr>
-  </thead>
+    <table class="table">
   <tbody>
+    {{#each campgrounds}}
     <tr>
-      <th scope="row">1</th>
+      <th scope="row"></th>
+      <td>{{this.name}}</td>
+      <td><a href="url" id=`{{this.id}}`>Reviews</a></td>
     </tr>
-    <tr>
-      <th scope="row">2</th>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-    </tr>
+       {{/each}}
   </tbody>
 </table>
-    </div>
   </div>
+    <div class="row">
+    <div class="col">
+        <div class="container np">
+        <h2>Reviews will append here</h2>
+    </div>
   <div class="row">
     <div class="col">
         <div class="container np">
@@ -68,13 +65,11 @@
     </div>
     <div class="col">
         <div id="activities">
-                Activities?
     <div id="activity-view"></div>
   </div>
     </div>
 </div>
 
-</main>
 <script>
 function myMap() {
     var mapProp = {
@@ -84,11 +79,7 @@ function myMap() {
 
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 
-<<<<<<< HEAD
 
-=======
-    // for whatever reason, google maps gets screwed up if I try to delete this marker.
->>>>>>> main
     var marker = new google.maps.Marker({
       // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
       position: { lat: 39.833333, lng: -98.583333 },
@@ -123,7 +114,6 @@ function myMap() {
     });
 
     $(".location").each((index) => {
-<<<<<<< HEAD
       //debugger;
 
       // NEEd to figure out how to define latitude and longitude in the right scope.
@@ -133,87 +123,6 @@ function myMap() {
       addMarker({
         coords: { lat: latitude, lng: longitude },
       });
-=======
-      // console.log(index)
-      // below we are finding all the lat and lng data in the html 
-      console.log(this.lati)
-      console.log(this.long)
-
-      var latitude = this.lati[index].innerHTML
-      // console.log(this.lati[index].innerHTML)
-      var longitude = this.long[index].innerHTML
-
-      // here we are looping through everything that is lati
-      var latitudeArray = this.lati
-      for (i = 0; i < latitudeArray.length; i++) {
-        // console.log(latitudeArray[i].innerHTML)
-
-      }
-      // here we are looping though everything that is long
-      var longitudeArray = this.long
-      for (i = 0; i < longitudeArray.length; i++) {
-        //  console.log(longitudeArray[i].innerHTML)
-
-      }
-      var htmlLat = this.lati[0].innerHTML
-      var htmlLong = this.long[0].innerHTML
-      // console.log(this.lati[0].innerHTML)
-
-      var marker = new google.maps.Marker({
-        // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
-        position: {
-          lat: parseFloat(htmlLat),
-          lng: parseFloat(htmlLong)
-        },
-        map: map,
-        icon: "tents.png"
-      })
-
-      var htmlLat1 = this.lati[1].innerHTML
-      var htmlLong1 = this.long[1].innerHTML
-
-
-      var marker = new google.maps.Marker({
-        // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
-        position: {
-          lat: parseFloat(htmlLat1),
-          lng: parseFloat(htmlLong1)
-        },
-        map: map,
-        icon: "tents.png"
-      })
-
-      var htmlLat2 = this.lati[2].innerHTML
-      var htmlLong2 = this.long[2].innerHTML
-
-
-      var marker = new google.maps.Marker({
-        // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
-        position: {
-          lat: parseFloat(htmlLat2),
-          lng: parseFloat(htmlLong2)
-        },
-        map: map,
-        icon: "tents.png"
-      })
-
-      var htmlLat3 = this.lati[3].innerHTML
-      var htmlLong3 = this.long[3].innerHTML
-
-
-      var marker = new google.maps.Marker({
-        // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
-        position: {
-          lat: parseFloat(htmlLat3),
-          lng: parseFloat(htmlLong3)
-        },
-        map: map,
-        icon: "tents.png"
-      })
-
-
-
->>>>>>> main
       // create new marker using lat and long
     });
 
