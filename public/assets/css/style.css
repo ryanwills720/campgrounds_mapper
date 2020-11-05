@@ -18,3 +18,8 @@ body {
     color: #FAF6F2;
 }
 
+.hide {
+    z-index: -1;
+    color: white;
+    font-size: 2px;
+}
