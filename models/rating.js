@@ -2,13 +2,8 @@
 var orm = require("../config/orm.js");
 
 var rating = {
-  allByStateCity: function(city, state, cb) {
-    orm.allByStateCity("campgrounds", function(res) {
-      cb(res);
-    });
-  },
-  allCitiesByState: function(state, cb) {
-    orm.allCitiesByState("campgrounds", function(res) {
+  all: function(cb) {
+    orm.all("campgrounds", function(res) {
       cb(res);
     });
   },

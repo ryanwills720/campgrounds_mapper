@@ -7,17 +7,7 @@ var rating = require("../models/rating.js");
 
 // Create all our routes and set up logic within those routes where required.
 router.get("/", function(req, res) {
-  rating.allByStateCity(function(data) {
-    var hbsObject = {
-      ratings: data
-    };
-    console.log(hbsObject);
-    res.render("index", hbsObject);
-  });
-});
-
-router.get("/state", function(req, res) {
-  rating.allCitiesByState(function(data) {
+  rating.all(function(data) {
     var hbsObject = {
       ratings: data
     };
