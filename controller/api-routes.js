@@ -25,10 +25,9 @@ module.exports = function(app) {
     
   });
 
-  // If a user sends data to add a new character..
-  // GET route for getting all of the todos
+  // GET route for getting campgrounds
   app.get("/api/campgrounds", function(req, res) {
-    // Write code here to retrieve all of the todos from the database and res.json them
+    //change findALL to whatever we decide to do with this fx
     db.Rating.findAll({}) .then(data=>{
       console.log(data);
       res.json(data);
