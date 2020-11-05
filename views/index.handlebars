@@ -1,23 +1,27 @@
-<h1>National Park and Campsite Map</h1>
+<nav class="navbar navbar-light bg-light">
+  <span class="navbar-brand mb-0 h1">National Parks and Campsites Mapper</span>
+</nav>
 
-<div id="googleMap" style="width:700px;height:500px;"></div>
-
-<div class="row">
-  <div class="container np">
-    <h2>Pick a National Park</h2>
-    <select name="nationalParks" id="nationalParks" class="select-dropdown"></select>
-    <div id="np-view"></div>
-  </div>
-
-  <div id="activities">
+<div id="mapAndDropdowns" class="container">
+  <div class="row">
+    <div class="col-5 np">
+      <text>Choose a National Park</text>
+      <select name="nationalParks" id="nationalParks" class="select-dropdown btn btn-success dropdown-toggle"></select>
+      <div id="np-view"></div>
+    </div>
+    {{!-- not sure what this is for --}}
+    {{!-- <div id="activities">
     <div id="activity-view"></div>
+    </div> --}}
+
+    <div class="col np">
+      <text>Pick a state to search campsites</text>
+      <select name="statePick" id="statePick" class="select-dropdown btn btn-secondary dropdown-toggle"></select>
+      {{!-- <div id="state-view"></div> --}}
+    </div>
   </div>
 
-  <div class="container np">
-    <h2>Pick a state and search campsites</h2>
-    <select name="statePick" id="statePick" class="select-dropdown"></select>
-    <div id="state-view"></div>
-  </div>
+  <div id="googleMap" style="width:700px;height:500px;"></div>
 
   <div id="activities">
     <ul>
@@ -53,7 +57,7 @@
 
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 
-// for whatever reason, google maps gets screwed up if I try to delete this marker.
+    // for whatever reason, google maps gets screwed up if I try to delete this marker.
     var marker = new google.maps.Marker({
       // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
       position: { lat: 39.833333, lng: -98.583333 },
@@ -105,7 +109,7 @@
           lng: parseFloat(htmlLong)
         },
         map: map,
-         icon: "tents.png"
+        icon: "tents.png"
       })
 
       var htmlLat1 = this.lati[1].innerHTML
@@ -119,7 +123,7 @@
           lng: parseFloat(htmlLong1)
         },
         map: map,
-         icon: "tents.png"
+        icon: "tents.png"
       })
 
       var htmlLat2 = this.lati[2].innerHTML
@@ -133,7 +137,7 @@
           lng: parseFloat(htmlLong2)
         },
         map: map,
-         icon: "tents.png"
+        icon: "tents.png"
       })
 
       var htmlLat3 = this.lati[3].innerHTML
