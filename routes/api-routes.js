@@ -1,17 +1,30 @@
 
 var db = require("../models/rating");
 var express = require("express");
+var orm = require("../config/orm")
 
 // Sets up the Express App
 // =============================================================
 var app = express();
+var rating = require("../models/rating.js");
 // Routes
 // =============================================================
 module.exports = function(app) {
   app.get("/", function(req, res) {
-    res.render("index")
+    // If there is a state query param...
+    if (req.query.state) {
+      let stateSelected = req.query.state // ex. "CO"
+
+      // get campgrounds by state
+      orm.campgroundsByState(stateSelected, function(stateCampgrounds) {
+         res.render("index", {campgrounds: stateCampgrounds});
+      });
+    } else { // return no campgrounds for home page
+      res.render("index", {campgrounds: []});
+    }
+    
   });
-  
+
   // If a user sends data to add a new character..
   // GET route for getting all of the todos
   app.get("/api/campgrounds", function(req, res) {

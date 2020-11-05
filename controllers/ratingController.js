@@ -1,29 +1,33 @@
-var express = require("express")
+// NOT USING THIS FILE
 
-var router = express.Router();
+// var express = require("express")
 
-// Import the model (rating.js) to use its database functions.
-var rating = require("../models/rating.js");
+// var router = express.Router();
 
-// Create all our routes and set up logic within those routes where required.
-router.get("/", function(req, res) {
-  rating.all(function(data) {
-    var hbsObject = {
-      ratings: data
-    };
-    console.log(hbsObject);
-    res.render("index", hbsObject);
-  });
-});
+// // Import the model (rating.js) to use its database functions.
+// var rating = require("../models/rating.js");
 
-router.post("/api/ratings", function(req, res) {
-  rating.create(["name", ], [req.body.name, req.body.sleepy], function(result) {
-    // Send back the ID of the new quote
-    res.json({ id: result.insertId });
-  });
-});
+// // Create all our routes and set up logic within those routes where required.
+// app.get("/", function(req, res) {
+//   console.log("ratingsController.js")
+//   rating.all(function(data) {
+
+//     var hbsObject = {
+//       ratings: data
+//     };
+//     console.log(hbsObject);
+//     res.render("index", hbsObject);
+//   });
+// });
+
+// app.post("/api/ratings", function(req, res) {
+//   rating.create(["name", ], [req.body.name, req.body.sleepy], function(result) {
+//     // Send back the ID of the new quote
+//     res.json({ id: result.insertId });
+//   });
+// });
 
 
 
-// Export routes for server.js to use.
-module.exports = router;
+// // Export routes for server.js to use.
+// module.exports = app;
