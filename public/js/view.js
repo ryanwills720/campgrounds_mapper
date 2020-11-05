@@ -58,3 +58,4 @@ $("#statePick").on("change", function (event) {
     let query = `?state=${stateSelected}`
     document.location.search = query;
 });
+
