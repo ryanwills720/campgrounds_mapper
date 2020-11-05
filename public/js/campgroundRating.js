@@ -3,8 +3,8 @@ $(function() {
       // Make sure to preventDefault on a submit event.
       event.preventDefault();
       
-      // var name = $(".site-name").val();
-      // console.log(name);
+      var name = $(".site-name").val();
+      console.log(name);
       
       var newRating = {
         camp_name: name,
