@@ -2,7 +2,7 @@
   <span class="navbar-brand mb-0 h1">National Parks and Campsites Mapper</span>
 </nav>
 
-<div id="mapAndDropdowns" class="container">
+<div id="mapAndDropdowns" class="container col">
   <div class="row">
     <div class="col-5 np">
       <text>Choose a National Park</text>
@@ -20,33 +20,36 @@
       {{!-- <div id="state-view"></div> --}}
     </div>
   </div>
+  <section class="row">
+    <div id="googleMap" style="width:700px;height:500px;" class="col-6"></div>
+    <article class="col-6" id="userReviews"> This is where the user reviews will go</article>
 
-  <div id="googleMap" style="width:700px;height:500px;"></div>
-
-  <div id="activities">
-    <ul>
-      {{#each campgrounds}}
-      <li>
-        <p>Campsite Name: {{this.name}}</p>
-        <p>State: {{this.state}}</p>
-        <p class="location">Location: <span id="lati">{{this.latitude}}</span>, <span
-            id="long">{{this.longitude}}</span></p>
-
-        <form class="create-form">
-
-          <div class="form-group">
-            <label for="rating">Rating for this campsite</label>
-            <input type="text" id=`{{this.id}}` name="name">
-          </div>
-
-          <button type="submit">Add Rating</button>
-        </form>
-      </li>
-
-      {{/each}}
-    </ul>
-  </div>
+  </section>
 </div>
+<div id="activities">
+  <ul>
+    {{#each campgrounds}}
+    <li>
+      <p>Campsite Name: {{this.name}}</p>
+      <p>State: {{this.state}}</p>
+      <p class="location">Location: <span id="lati">{{this.latitude}}</span>, <span id="long">{{this.longitude}}</span>
+      </p>
+
+      <form class="create-form">
+
+        <div class="form-group">
+          <label for="rating">Rating for this campsite</label>
+          <input type="text" id=`{{this.id}}` name="name">
+        </div>
+
+        <button type="submit">Add Rating</button>
+      </form>
+    </li>
+
+    {{/each}}
+  </ul>
+</div>
+
 
 <script>
   function myMap() {
