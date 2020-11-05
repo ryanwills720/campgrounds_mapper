@@ -10,27 +10,7 @@
   </div>
   <div id="activities">
     <ul>
-   {{!-- /*   {{#each campgrounds}}
-      <li>
-        <p>ID: {{this.id}}</p>
-        <p>Campsite Name: {{this.name}}</p>
-        <p>State: {{this.state}}</p>
-        <p class="location">Location: <span id="lati">{{this.latitude}}</span>, <span id="long">{{this.longitude}}</span></p>
-        
-        <form class="create-form">
-        
-          <div class="form-group">
-
-
-            <label for="rating">Rating for this campsite</label>
-            <input type="text" id="rating" name="name">
-          </div>
-        
-          <button type="submit">Add Rating</button>
-        </form>
-        </li>
-      
-      {{/each}}  --}}
+   
         </ul>
         </div>
     </div>
@@ -47,7 +27,7 @@
     <tr>
       <th class ="hide" scope="row"><p class="location">Location: <span id="lati">{{this.latitude}}</span>, <span id="long">{{this.longitude}}</span></p></th>
       <td>{{this.name}}</td>
-      <td><a href="url" id=`{{this.id}}`>Reviews</a></td>
+      <td><button id=`{{this.id}}` type="button" class="btn btn-primary review-btn" data-toggle="modal" data-target="#exampleModal" data-name="{{this.name}}">Review</button></td>
     </tr>
        {{/each}}
   </tbody>
@@ -57,6 +37,51 @@
     <div class="col">
         <div class="container np">
         <h2>Reviews will append here</h2>
+
+   {{!-- {{#each campgrounds}} --}}
+<div class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">{{this.name}}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Please leave a review! ?/5</p>
+      </div>
+      <div class="modal-footer">
+        <form class="create-form">
+        
+          <div class="form-group">
+
+            <label for="rating">Leave a rating for this campsite</label>
+            <input type="text" id="rating" name="name">
+          </div>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Add Rating</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+      {{!-- {{/each}}  --}}
+
+
+      {{!-- <li>
+        <p>{{this.name}}</p>
+        <form class="create-form">
+        
+          <div class="form-group">
+
+            <label for="rating">Leave a rating for this campsite</label>
+            <input type="text" id="rating" name="name">
+          </div>
+        
+          <button type="submit">Add Rating</button>
+        </form>
+        </li> --}}
     </div>
   <div class="row">
     <div class="col">
@@ -73,6 +98,19 @@
 </div>
 
 <script>
+
+ 
+    
+      $(".review-btn").on("click", function(event){
+        console.log("clicked on review");
+        campsite = $(event.target).attr("id");
+        console.log("this is the campsite ", campsite);
+        $(".modal-title").text($(this).data("name"));
+        // display the modal
+       $('.modal').modal();
+      });
+     
+
 function myMap() {
     var mapProp = {
       center: new google.maps.LatLng(39.833333, -98.583333),
