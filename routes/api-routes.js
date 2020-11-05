@@ -16,7 +16,7 @@ module.exports = function(app) {
   // GET route for getting all of the todos
   app.get("/api/campgrounds", function(req, res) {
     // Write code here to retrieve all of the todos from the database and res.json them
-    db.Rating.allByStateCity({}) .then(data=>{
+    db.Rating.findAll({}) .then(data=>{
       console.log(data);
       res.json(data);
     });

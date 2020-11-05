@@ -33,8 +33,7 @@ require("./routes/api-routes.js")(app);
 var routes = require("./controllers/ratingController.js");
 var orm = require("./config/orm");
 
-orm.allByStateCity("CO", "Littleton");
-orm.allCitiesByState("CO");
+orm.all();
 app.use(routes);
 // Start our server so that it can begin listening to client requests.
 app.listen(PORT, function() {
