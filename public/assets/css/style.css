@@ -1,13 +1,5 @@
-/* for testing */
-#mapAndDropdowns {
-    border: 1px solid #ccc;
-}
 
-.np {
-    font-size: 1rem;
-    padding: 20px;
-    border: 1px solid #ccc;
-}
+
 
 /* serious */
 @font-face {
@@ -49,6 +41,8 @@ body {
     font-family: 'national_parkregular';
 }
 
+
+
 #navbar {
     background-color: #683B2B;
 }
@@ -61,6 +55,8 @@ body {
 
 .np {
     background-color: #DED1BD;
+    font-size: 1rem;
+    padding: 20px;
 }
 
 #userReviews {
