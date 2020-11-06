@@ -1,7 +1,7 @@
 # National Park and Campgrounds Mapper 
-A National Parks mapping site that will show relevant non-National Park Service campgrounds nearby.
+Wanderlust America provides travelers with a curated listing of the top 10 campsites in each of the 50 states.  Users may enter rating for the campsites provided, and can look up National Parks.
 
-![image of our app will go here](http://url/to/img.png)
+![Wanderlust America](./readme-asset/wanderlust-screenshot.png)
 
 ## Table of Contents
 1. [Goal](#Goal)
@@ -11,8 +11,13 @@ A National Parks mapping site that will show relevant non-National Park Service 
 5. [Future Developments](#Future-Developments)
 
 ## Goal
+We want the user to see a list of the top campsites per state from a trusted source, so that they can spend less time scrolling and researching, and more time out in the wilderness. 
 
 ## Process
+- We began by locating all the data we wanted to use in the website
+- From there, we created all the folders necessary
+- The first code added to the project was the map which we designed around.
+- We used several technologies to do this, see below:
 
 ## Technologies Used
 - Mysql 
@@ -22,7 +27,14 @@ A National Parks mapping site that will show relevant non-National Park Service 
 - NPS API (National Parks)
 
 ## Issues
+- We struggled with mastering google maps
+- We wanted to have the ratings of each campground append below the map but didn't have enough time
 
 ## Future Developments
+- Tie in National Park search with nearby campsites
+- Search National Parks by state, and insert into map
+- Create search input for the map
+- Improve zoom and marker click capabilities with the Google API
+- Allow users to leave a detailed review, and add photos of their trips
 
 
