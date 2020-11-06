@@ -8,6 +8,16 @@ body {
     color: #FAF6F2;
 }
 
+.btn-light, .review-btn, .btn-light:hover, .btn-light:active, .btn-light:visited {
+    background-color: #354c41 !important;
+    color: #FAF6F2;
+
+}
+
+#np-container{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
 
 #navbar-head {
     background-color: #354c41;
@@ -22,4 +32,24 @@ body {
     z-index: -1;
     color: white;
     font-size: 2px;
+}
+
+#footer-bottom {
+    background-color: #c6b794 !important;
+    color:  #354c41;
+    margin-top: 6rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+a:link {
+    color: #66927d;
+}
+  
+a:visited {
+    color: #354c41;
+}
+  
+a:active {
+    color: #354c41;
 }

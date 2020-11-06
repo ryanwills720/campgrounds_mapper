@@ -1,334 +1,320 @@
 <div class="container np">
-    <div class="row">
+  <div class="row">
     <div class="col">
-        <div class="container np">
-    <h3>Pick a state and search campsites</h3>
-    <select name="statePick" id="statePick" class="select-dropdown"></select>
-    <div id="state-view"></div>
-  </div>
-  <div id="activities">
-    <ul>
-   
+      <div class="container np">
+        <h3>Pick a state and search campsites</h3>
+        <select name="statePick" id="statePick" class="select-dropdown"></select>
+        <div id="state-view"></div>
+      </div>
+      <div id="activities">
+        <ul>
         </ul>
-        </div>
+      </div>
     </div>
+  </div>
 
-    </div>
   <div class="row">
     <div class="col">
       <div id="googleMap" style="width:700px;height:500px;"></div>
     </div>
     <div class="col">
-    <table class="table">
-  <tbody>
-    {{#each campgrounds}}
-    <tr>
-      <th class ="hide" scope="row"><p class="location">Location: <span id="lati">{{this.latitude}}</span>, <span id="long">{{this.longitude}}</span></p></th>
-      <td>{{this.name}}</td>
-      <td><button id=`{{this.id}}` type="button" class="btn btn-primary review-btn" data-toggle="modal" data-target="#exampleModal" data-name="{{this.name}}">Review</button></td>
-    </tr>
-       {{/each}}
-  </tbody>
-</table>
-  </div>
-    <div class="row">
-    <div class="col">
-        <div class="container np">
-        <h2>Reviews will append here</h2>
-
-   {{!-- {{#each campgrounds}} --}}
-<div class="modal" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">{{this.name}}</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>Please leave a review! ?/5</p>
-      </div>
-      <div class="modal-footer">
-        <form class="create-form">
-        
-          <div class="form-group">
-
-            <label for="rating">Leave a rating for this campsite</label>
-            <input type="text" id="rating" name="name">
-          </div>
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="submit" class="btn btn-primary">Add Rating</button>
-        </form>
-      </div>
+      <table class="table">
+        <tbody>
+          {{#each campgrounds}}
+          <tr>
+            <th class="hide" scope="row">
+              <p class="location">Location: <span id="lati">{{this.latitude}}</span>, <span
+                  id="long">{{this.longitude}}</span></p>
+            </th>
+            <td id="campName">{{this.name}}</td>
+            <td><button id=`{{this.id}}` type="button" class="btn btn-light review-btn" data-toggle="modal"
+                data-target="#exampleModal" data-name="{{this.name}}">Review</button></td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
     </div>
   </div>
-</div>
-      {{!-- {{/each}}  --}}
 
-
-      {{!-- <li>
-        <p>{{this.name}}</p>
-        <form class="create-form">
-        
-          <div class="form-group">
-
-            <label for="rating">Leave a rating for this campsite</label>
-            <input type="text" id="rating" name="name">
-          </div>
-        
-          <button type="submit">Add Rating</button>
-        </form>
-        </li> --}}
-    </div>
   <div class="row">
     <div class="col">
-        <div class="container np">
-        <h2>Pick a National Park</h2>
-        <select name="nationalParks" id="nationalParks" class="select-dropdown"></select>
-        <div id="np-view"></div>
+      <div class="container np">
+        <div class="modal" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="model-camp-name">{{this.name}}</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Please leave a review! ?/5</p>
+              </div>
+              <div class="modal-footer">
+                <form class="create-form">
+
+                  <div class="form-group">
+
+                    <label for="rating">Leave a rating for this campsite</label>
+                    <input type="text" id="rating" name="name">
+                  </div>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="submit" class="btn btn-primary">Add Rating</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col">
-        <div id="activities">
-    <div id="activity-view"></div>
-  </div>
-    </div>
-</div>
+  </div>  
 
-<script>
+      <div class="row">
+        <div class="col">
+          <div class="container np" id="np-container">
+            <h2>Find a Nearby National Park</h2>
+            <select name="nationalParks" id="nationalParks" class="select-dropdown"></select>
+            <div id="np-view"></div>
+          </div>
+          <div class="col">
+            <div id="activities">
+              <div id="activity-view"></div>
+            </div>
+          </div>
+        </div>
+      </div>
 
- 
-    
-      $(".review-btn").on("click", function(event){
-        console.log("clicked on review");
-        campsite = $(event.target).attr("id");
-        console.log("this is the campsite ", campsite);
-        $(".modal-title").text($(this).data("name"));
-        // display the modal
-       $('.modal').modal();
-      });
-     
+      <script>
 
-function myMap() {
-    var mapProp = {
-      center: new google.maps.LatLng(39.833333, -98.583333),
-      zoom: 4,
-    };
-
-    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-
-
-    var marker = new google.maps.Marker({
-      // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
-      position: { lat: 39.833333, lng: -98.583333 },
-      map: map,
-    })
+        $(".review-btn").on("click", function (event) {
+          console.log("clicked on review");
+          campsite = $(event.target).attr("id");
+          console.log("this is the campsite ", campsite);
+          $(".modal-title").text($(this).data("name"));
+          // display the modal
+          $('.modal').modal();
+        });
 
 
-    google.maps.event.addListener(marker, 'click', function () {
-      var pos = map.getZoom();
-      map.setZoom(9);
-      map.setCenter(marker.getPosition());
-      window.setTimeout(function () { map.setZoom(pos); }, 3000);
-    });
+        function myMap() {
+          var mapProp = {
+            center: new google.maps.LatLng(39.833333, -98.583333),
+            zoom: 4,
+          };
 
-console.log(window)
-    $(".location").each((index) => {
-      console.log(index)
-
-      // below we are finding all the lat and lng data in the html 
-      console.log(this.lati)
-      console.log(this.long)
-
-      var latitude = this.lati[index].innerHTML
-      console.log(this.lati[index].innerHTML)
-      var longitude = this.long[index].innerHTML
-
-      // here we are looping through everything that is lati
-      var latitudeArray = this.lati
-      for (i = 0; i < latitudeArray.length; i++) {
-        console.log(latitudeArray[i].innerHTML)
-
-      }
-      // here we are looping though everything that is long
-      var longitudeArray = this.long
-      for (i = 0; i < longitudeArray.length; i++) {
-        console.log(longitudeArray[i].innerHTML)
-
-      }
-      var htmlLat = this.lati[0].innerHTML
-      var htmlLong = this.long[0].innerHTML
-
-      console.log(parseFloat(this.lati[0].innerHTML))
-      // console.log(this.lati[0].innerHTML)
-
-      var marker = new google.maps.Marker({
-        // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
-        position: {
-          lat: parseFloat(htmlLat),
-          lng: parseFloat(htmlLong)
-        },
-        map: map,
-         icon: "tents.png"
-      })
-
-      var htmlLat1 = this.lati[1].innerHTML
-      var htmlLong1 = this.long[1].innerHTML
+          var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 
 
-      var marker = new google.maps.Marker({
-        // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
-        position: {
-          lat: parseFloat(htmlLat1),
-          lng: parseFloat(htmlLong1)
-        },
-        map: map,
-         icon: "tents.png"
-      })
-
-      var htmlLat2 = this.lati[2].innerHTML
-      var htmlLong2 = this.long[2].innerHTML
+          var marker = new google.maps.Marker({
+            // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
+            position: { lat: 39.833333, lng: -98.583333 },
+            map: map,
+          })
 
 
-      var marker = new google.maps.Marker({
-        // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
-        position: {
-          lat: parseFloat(htmlLat2),
-          lng: parseFloat(htmlLong2)
-        },
-        map: map,
-         icon: "tents.png"
-      })
+          google.maps.event.addListener(marker, 'click', function () {
+            var pos = map.getZoom();
+            map.setZoom(9);
+            map.setCenter(marker.getPosition());
+            window.setTimeout(function () { map.setZoom(pos); }, 3000);
+          });
 
-      var htmlLat3 = this.lati[3].innerHTML
-      var htmlLong3 = this.long[3].innerHTML
+          console.log(window)
+          $(".location").each((index) => {
+            console.log(index)
 
+            // below we are finding all the lat and lng data in the html 
+            console.log(this.lati)
+            console.log(this.long)
 
-      var marker = new google.maps.Marker({
-        // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
-        position: {
-          lat: parseFloat(htmlLat3),
-          lng: parseFloat(htmlLong3)
-        },
-        map: map,
-        icon: "tents.png"
-      })
+            var latitude = this.lati[index].innerHTML
+            console.log(this.lati[index].innerHTML)
+            var longitude = this.long[index].innerHTML
 
-      var htmlLat4 = this.lati[4].innerHTML
-      var htmlLong4 = this.long[4].innerHTML
+            // here we are looping through everything that is lati
+            var latitudeArray = this.lati
+            for (i = 0; i < latitudeArray.length; i++) {
+              console.log(latitudeArray[i].innerHTML)
 
+            }
+            // here we are looping though everything that is long
+            var longitudeArray = this.long
+            for (i = 0; i < longitudeArray.length; i++) {
+              console.log(longitudeArray[i].innerHTML)
 
-      var marker = new google.maps.Marker({
-        // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
-        position: {
-          lat: parseFloat(htmlLat4),
-          lng: parseFloat(htmlLong4)
-        },
-        map: map,
-        icon: "tents.png"
-      })
+            }
+            var htmlLat = this.lati[0].innerHTML
+            var htmlLong = this.long[0].innerHTML
 
-      var htmlLat5 = this.lati[5].innerHTML
-      var htmlLong5 = this.long[5].innerHTML
+            console.log(parseFloat(this.lati[0].innerHTML))
+            // console.log(this.lati[0].innerHTML)
 
+            var marker = new google.maps.Marker({
+              // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
+              position: {
+                lat: parseFloat(htmlLat),
+                lng: parseFloat(htmlLong)
+              },
+              map: map,
+              icon: "tents.png"
+            })
 
-      var marker = new google.maps.Marker({
-        // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
-        position: {
-          lat: parseFloat(htmlLat5),
-          lng: parseFloat(htmlLong5)
-        },
-        map: map,
-        icon: "tents.png"
-      })
-
-      var htmlLat6 = this.lati[6].innerHTML
-      var htmlLong6 = this.long[6].innerHTML
+            var htmlLat1 = this.lati[1].innerHTML
+            var htmlLong1 = this.long[1].innerHTML
 
 
-      var marker = new google.maps.Marker({
-        // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
-        position: {
-          lat: parseFloat(htmlLat6),
-          lng: parseFloat(htmlLong6)
-        },
-        map: map,
-        icon: "tents.png"
-      })
+            var marker = new google.maps.Marker({
+              // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
+              position: {
+                lat: parseFloat(htmlLat1),
+                lng: parseFloat(htmlLong1)
+              },
+              map: map,
+              icon: "tents.png"
+            })
 
-      var htmlLat7 = this.lati[7].innerHTML
-      var htmlLong7 = this.long[7].innerHTML
-
-
-      var marker = new google.maps.Marker({
-        // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
-        position: {
-          lat: parseFloat(htmlLat7),
-          lng: parseFloat(htmlLong7)
-        },
-        map: map,
-        icon: "tents.png"
-      })
-
-      var htmlLat8 = this.lati[8].innerHTML
-      var htmlLong8 = this.long[8].innerHTML
+            var htmlLat2 = this.lati[2].innerHTML
+            var htmlLong2 = this.long[2].innerHTML
 
 
-      var marker = new google.maps.Marker({
-        // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
-        position: {
-          lat: parseFloat(htmlLat8),
-          lng: parseFloat(htmlLong8)
-        },
-        map: map,
-        icon: "tents.png"
-      })
+            var marker = new google.maps.Marker({
+              // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
+              position: {
+                lat: parseFloat(htmlLat2),
+                lng: parseFloat(htmlLong2)
+              },
+              map: map,
+              icon: "tents.png"
+            })
 
-         var htmlLat9 = this.lati[9].innerHTML
-      var htmlLong9 = this.long[9].innerHTML
-
-
-      var marker = new google.maps.Marker({
-        // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
-        position: {
-          lat: parseFloat(htmlLat9),
-          lng: parseFloat(htmlLong9)
-        },
-        map: map,
-        icon: "tents.png"
-      })
-
-         var htmlLat10 = this.lati[10].innerHTML
-      var htmlLong10 = this.long[10].innerHTML
+            var htmlLat3 = this.lati[3].innerHTML
+            var htmlLong3 = this.long[3].innerHTML
 
 
-      var marker = new google.maps.Marker({
-        // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
-        position: {
-          lat: parseFloat(htmlLat10),
-          lng: parseFloat(htmlLong10)
-        },
-        map: map,
-        icon: "tents.png"
-      })
+            var marker = new google.maps.Marker({
+              // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
+              position: {
+                lat: parseFloat(htmlLat3),
+                lng: parseFloat(htmlLong3)
+              },
+              map: map,
+              icon: "tents.png"
+            })
+
+            var htmlLat4 = this.lati[4].innerHTML
+            var htmlLong4 = this.long[4].innerHTML
+
+
+            var marker = new google.maps.Marker({
+              // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
+              position: {
+                lat: parseFloat(htmlLat4),
+                lng: parseFloat(htmlLong4)
+              },
+              map: map,
+              icon: "tents.png"
+            })
+
+            var htmlLat5 = this.lati[5].innerHTML
+            var htmlLong5 = this.long[5].innerHTML
+
+
+            var marker = new google.maps.Marker({
+              // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
+              position: {
+                lat: parseFloat(htmlLat5),
+                lng: parseFloat(htmlLong5)
+              },
+              map: map,
+              icon: "tents.png"
+            })
+
+            var htmlLat6 = this.lati[6].innerHTML
+            var htmlLong6 = this.long[6].innerHTML
+
+
+            var marker = new google.maps.Marker({
+              // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
+              position: {
+                lat: parseFloat(htmlLat6),
+                lng: parseFloat(htmlLong6)
+              },
+              map: map,
+              icon: "tents.png"
+            })
+
+            var htmlLat7 = this.lati[7].innerHTML
+            var htmlLong7 = this.long[7].innerHTML
+
+
+            var marker = new google.maps.Marker({
+              // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
+              position: {
+                lat: parseFloat(htmlLat7),
+                lng: parseFloat(htmlLong7)
+              },
+              map: map,
+              icon: "tents.png"
+            })
+
+            var htmlLat8 = this.lati[8].innerHTML
+            var htmlLong8 = this.long[8].innerHTML
+
+
+            var marker = new google.maps.Marker({
+              // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
+              position: {
+                lat: parseFloat(htmlLat8),
+                lng: parseFloat(htmlLong8)
+              },
+              map: map,
+              icon: "tents.png"
+            })
+
+            var htmlLat9 = this.lati[9].innerHTML
+            var htmlLong9 = this.long[9].innerHTML
+
+
+            var marker = new google.maps.Marker({
+              // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
+              position: {
+                lat: parseFloat(htmlLat9),
+                lng: parseFloat(htmlLong9)
+              },
+              map: map,
+              icon: "tents.png"
+            })
+
+            var htmlLat10 = this.lati[10].innerHTML
+            var htmlLong10 = this.long[10].innerHTML
+
+
+            var marker = new google.maps.Marker({
+              // WE WILL MANIPULATE THE MARKER POSITION AND ZOOM
+              position: {
+                lat: parseFloat(htmlLat10),
+                lng: parseFloat(htmlLong10)
+              },
+              map: map,
+              icon: "tents.png"
+            })
 
 
 
-      // create new marker using lat and long
-    });
+            // create new marker using lat and long
+          });
 
-  };
+        };
 
-  // once the document loads...
-  // grab all of the lats and longs of each camp site from the html
-  // create a marker using those lats and longs.
-  $(document).ready(() => {
-    
-  });
-   
+        // once the document loads...
+        // grab all of the lats and longs of each camp site from the html
+        // create a marker using those lats and longs.
+        $(document).ready(() => {
+
+        });
 
 
-</script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key={{mapsapikey}}&callback=myMap"></script>
 

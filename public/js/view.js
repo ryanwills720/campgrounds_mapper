@@ -10,8 +10,7 @@ for (var i = 0; i < stateCode.length; i++) {
     )
 };
 
-// need to update this to be on backend
-$("#nationalParks").on("change", event => {
+$("#nationalParks").on("change", function (event) {
     var parkCode = $("#nationalParks option:selected").val().trim();
     // begin server call for NPS API key
     $.ajax("/apikey", {
