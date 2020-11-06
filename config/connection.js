@@ -1,5 +1,7 @@
 // Set up MySQL connection.
 var mysql = require("mysql");
+require('dotenv').config();
+
 
 //  if else statement for JAWSDB needs to go here:
 if (process.env.JAWSDB_URL){
@@ -8,10 +10,10 @@ if (process.env.JAWSDB_URL){
   connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'password',
+    password: process.env.DB_PASSWORD,
     database: 'ratings_db'
   });
-}
+};
 
 
 // Make connection.
