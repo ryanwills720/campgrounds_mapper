@@ -10,11 +10,7 @@ for (var i = 0; i < stateCode.length; i++) {
     )
 }
 
-// need to update this to be on backend
-
 $("#nationalParks").on("change", function (event) {
-    // var URL = "https://developer.nps.gov/api/v1/parks?&api_key=dhAHMjbJ35wMczQAt4WAxuNGeYAujaFvC4ov1yQt"
-
     var parkCode = $("#nationalParks option:selected").val().trim();
     var URL = "https://developer.nps.gov/api/v1/parks?parkCode=" + parkCode + "&api_key=dhAHMjbJ35wMczQAt4WAxuNGeYAujaFvC4ov1yQt"
 

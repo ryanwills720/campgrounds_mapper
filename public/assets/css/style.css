@@ -8,6 +8,15 @@ body {
     color: #FAF6F2;
 }
 
+.btn-light, .review-btn, .btn-light:hover, .btn-light:active, .btn-light:visited {
+    background-color: #354c41 !important;
+    color: #FAF6F2;
+
+}
+
+.np-container{
+    margin-bottom: 6rem;
+}
 
 #navbar-head {
     background-color: #354c41;
