@@ -3,12 +3,12 @@ $(function() {
       // Make sure to preventDefault on a submit event.
       event.preventDefault();
       
-      var name = $(".site-name").val();
+      var name = $("#model-camp-name").text();
       console.log(name);
       
       var newRating = {
         camp_name: name,
-        rating: $("#rating-val").val().trim(),
+        rating: $("#rating").val().trim(),
       };
   
       // Send the POST request.
