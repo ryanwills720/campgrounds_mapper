@@ -26,7 +26,7 @@
     {{#each campgrounds}}
     <tr>
       <th class ="hide" scope="row"><p class="location">Location: <span id="lati">{{this.latitude}}</span>, <span id="long">{{this.longitude}}</span></p></th>
-      <td>{{this.name}}</td>
+      <td id="campName">{{this.name}}</td>
       <td><button id=`{{this.id}}` type="button" class="btn btn-primary review-btn" data-toggle="modal" data-target="#exampleModal" data-name="{{this.name}}">Review</button></td>
     </tr>
        {{/each}}
@@ -43,7 +43,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">{{this.name}}</h5>
+        <h5 class="modal-title" id="model-camp-name">{{this.name}}</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -98,9 +98,7 @@
 </div>
 
 <script>
-
- 
-    
+  
       $(".review-btn").on("click", function(event){
         console.log("clicked on review");
         campsite = $(event.target).attr("id");

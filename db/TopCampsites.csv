@@ -1,0 +1,640 @@
+longitude,latitude,name,phone,dates_open,state,city
+-86.482,32.36,Gunter Hill,334.872.9554,all year,AL,Montgomery
+-85.147,31.777,White Oak Creek,334.687.3101,all year,AL,Eufaula
+-86.77,32.338,Prairie Creek,334.418.4919,all year,AL,Lowndesboro
+-87.26,34.02,Clear Creek,205.489.5111/334.832.4470,mid mar-mid oct,AL,Jasper
+-87.807,32.81,Jennings Ferry,205.372.1217,all year,AL,Akron
+-87.32,34.1,Corinth,205.489.5111/334.832.4470,mid mar-late oct,AL,Double Springs
+-87.55,31.622,Isaac Creek,251.282.4254,all year,AL,Camden
+-88.304,33.235,Pickensville,205.373.6328,all year,AL,Carrollton
+-87.389,32.116,East Bank/Millers Ferry,334.682.4191,all year,AL,Camden
+-85.214,32.977,Amity,334.499.2404,all year,AL,Lanett
+-87.349,33.45,Burchfield Branch Park,205.497.9828,all year,AL,Adger
+-88.144,31.746,Service,251.754.9338,all year,AL,Silas
+-87.879,32.634,Forkland/McConnico Creek,334.289.5530,all year,AL,Demopolis
+-85.014,32.186,Bluff Creek,334.000.0000,all year,AL,Pittsview
+-85.113,31.644,Hardridge Creek,334.585.5945,all year,AL,Abbeville
+-87.274,32.141,Chilatchee Creek,334.573.2562,early mar-mid nov,AL,Alberta
+-87.01,32.327,Six Mile Creek,334.872.9554,early jan-mid sep,AL,Selma
+-87.297,34.119,Houston,205.489.5111/334.832.4470,mid mar-late oct,AL,Houston
+-88.319,31.064,Citronelle Lakeview RV Park,251.866.9647,all year,AL,Citronelle
+-86.318,30.998,Florala State Park,334.858.6425,all year,AL,Florala
+-85.56,33.72,Big Oak Gap Hunter Camp,256.463.2272/334.832.4470,all year,AL,Heflin
+-88.16,31.856,Lenoir Landing - Coffeeville Lake,251.754.9338,all year,AL,Toxey
+-87.44,32.884,Payne Lake East Side,205.926.9765/334.832.4470,all year,AL,Duncanville
+-86.022,34.042,Noccalula Falls Campground,256.543.7412,,AL,Gadsden
+-146.937,64.469,Salcha River State Rec Area,,,AK,Salcha
+-149.46,68.5,Galbraith Lake - Dalton Hwy,,,AK,
+-146.214,61.138,Valdez Glacier,907.873.4058,,AK,Valdez
+-149.728,60.479,Quartz Creek,907.224.3374/907.743.9500,early jun-late aug,AK,Cooper Landing
+-149.497,60.636,Tenderfoot Creek,907.224.3374/907.743.9500,early jun-late aug,AK,Moose Pass
+-151.269,60.293,Johnson Lake State Rec Area,907.262.5581,,AK,Kasilof
+-143.868,62.729,Porcupine Creek State Rec Area,907.822.3973,,AK,Slana
+-151.668,60.051,Ninilchik State Rec Area,907.262.5581,,AK,Ninilchik
+-147.795,61.798,Matanuska Glacier State Rec Area,,,AK,Sutton
+-149.148,61.409,Eklunta - Chugach State Park,907.345.5014,,AK,Chugiak
+-148.909,60.794,Black Bear,907.783.3242/907.743.9500,,AK,Girdwood
+-149.57,61.307,Eagle River - Chugach State Park,907.345.5014,,AK,Eagle River
+-149.256,60.751,Bertha Creek,907.783.3242/907.743.9500,,AK,Hope
+-149.274,61.61,Finger Lake State Rec Area,907.745.3975,,AK,Wasilla
+-149.822,61.558,Rocky Lake State Rec Area,907.317.9094.,,AK,Wasilla
+-148.894,63.73,Riley Creek - Denali National Park,800.622.7275,,AK,
+-135.207,57.062,Sawmill Creek,907.747.4236/907.225.3101,,AK,Sitka
+-145.174,61.665,Squirrel Creek State Rec Area,907.745.3975,,AK,Copper Center
+-151.812,59.843,Stariski State Rec Area,,,AK,Anchor Point
+-149.576,63.671,Teklanika  River - Denali National Park,800.622.7275,,AK,Healy
+-142.839,63.325,Tok River State Rec Area,907.451.2405,,AK,Tok
+-147.257,65.192,Upper Chatanika River State Rec Area,907.451.2695,,AK,Fairbanks
+-148.88,60.786,Williwaw,907.783.3242/907.743.9500,early jun-late aug,AK,Girdwood
+-131.684,55.445,Last Chance,907.225.2148/907.225.3101,mid may-late aug,AK,Ketchikan
+-152.36,57.831,Fort Abercrombie State Park,907.486.6339,,AK,Kodiak
+-111.481,33.464,Lost Dutchman State Park,480.982.4485,all year,AZ,Apache Junction
+-111.823,36.039,Desert View - Grand Canyon National Park,928.638.7888,,AZ,Grand Canyon
+-111.765,34.515,Clear Creek,928.203.7501/928.527.3600,,AZ,Camp Verde
+-111.203,33.732,Cholla,928.467.3201/602.225.5201,,AZ,Roosevelt
+-111.205,33.719,Cholla Bay,928.467.3201/602.225.5201,,AZ,Roosevelt
+-111.74,34.996,Cave Springs,928.203.7501/928.527.3600,early apr-late oct,AZ,Sedona
+-110.823,34.32,Canyon Point,928.537.8888/928.333.4301,early may-mid nov,AZ,Forest Lakes Estates
+-110.886,34.306,Sinkhole,928.537.8888/928.333.4301,mid may-mid oct,AZ,Forest Lakes
+-110.946,34.327,Aspen,928.537.8888/928.333.4301,mid apr-mid nov,AZ,Payson
+-110.743,34.305,Black Canyon Rim,928.537.8888/928.333.4301,mid may-mid nov,AZ,Forest Lakes
+-111.035,34.308,Christopher Creek,928.474.7901/602.225.5201,early apr-late oct,AZ,Payson
+-111.113,34.299,Ponderosa,928.474.7901/602.225.5201,early apr-late oct,AZ,Payson
+-111.398,32.646,Picacho Peak State Park,520.466.3183,all year,AZ,Picacho
+-111.738,35.013,Pine Flat,928.203.7501/928.527.3600,early apr-late oct,AZ,Sedona
+-111.143,32.219,Gilbert Ray,520.883.4200,,AZ,Tucson
+-111.087,33.667,Windy Hill,928.467.3201/602.225.5201,,AZ,Roosevelt
+-111.462,35.028,Pinegrove,928.774.1147/928.527.3600,early may-late sep,AZ,Flagstaff
+-110.936,34.332,Spillway,928.537.8888/928.333.4301,mid may-mid nov,AZ,Heber
+-109.484,33.965,Winn,928.333.4372/928.333.4301,mid may-mid nov,AZ,Greer
+-110.743,34.305,Black Canyon Rim,928.537.8888/928.333.4301,mid may-mid nov,AZ,Forest Lakes
+-112.157,35.281,Kaibab Lake,928.635.5630/928.635.8200,mid may-mid sep,AZ,Williams
+-111.599,35.125,Canyon Vista,928.774.1147/928.527.3600,mid may-mid oct,AZ,Flagstaff
+-110.957,34.321,Mogollon,928.537.8888/928.333.4301,mid may-mid oct,AZ,Forest Lakes
+-109.32,33.804,Deer Creek,928.339.4384/928.333.4301,mid may-mid sep,AZ,Alpine
+-111.646,33.547,Coon Bluff,480.610.3301/602.225.5201,mid oct - mid apr,AZ,Mesa
+-93.878,36.392,Starkey - Beaver Lake,479.636.1210,,AR,Eureka Springs
+-94.024,36.287,Horseshoe Bend - Beaver Lake,479.925.2561,all year,AR,Rogers
+-94.094,34.14,Horseshoe Bend - Dierks Lake,870.286.2346,all year,AR,Lockesburg
+-93.16,36.063,Ozark - Buffalo National River,870.439.2502,,AR,Jasper
+-92.647,36.438,Ozark Isle - Bull Shoals Lake,870.431.5744,,AR,Oakland
+-94.25,35.782,Devils Den State Park,479.761.3325,all year,AR,West Fork
+-92.177,35.584,Devils Fork - Greers Ferry Lake,501.825.8618,early apr-late oct,AR,Greers Ferry
+-93.934,36.342,Rocky Branch - Beaver Lake,501.925.2526,,AR,Rogers
+-91.994,35.511,John F Kennedy - Greers Ferry Lake,501.250.0481,early mar-late nov,AR,Heber Springs
+-94.031,36.241,Hickory Creek - Beaver Lake,479.750.2943,all year,AR,Springdale
+-93.357,34.542,Crystal Springs - Lake Ouachita,501.767.2108,early may-late sep,AR,Hot Springs
+-90.613,34.6,Storm Creek Lake,870.295.5278/479.964.7200,,AR,West Helena
+-93.697,34.612,Rocky Shoals,870.356.4186/501.321.5202,,AR,Mount Ida
+-93.479,35.424,Spadra - Lake Dardanelle,501.754.6438,,AR,Clarksville
+-93.658,35.107,Waveland - Blue Mountain Lake,479.947.2102,early mar-late oct,AR,Waveland
+-93.891,36.422,Indian Creek - Beaver Lake,479.636.1210,,AR,Gateway
+-93.126,34.227,Iron Mountain - De Gray Lake,870.246.5501,all year,AR,Arkadelphia
+-93.073,34.761,Iron Springs,501.984.5313/501.321.5202,,AR,Jessieville
+-93.373,34.686,Irons Fork - Lake Ouachita,,,AR,Story
+-93.845,35.035,Jack Creek,479.637.4174/501.321.5202,mid may-mid nov,AR,Booneville
+-92.549,36.373,Lakeview - Bull Shoals Lake,870.431.8116,all year,AR,Mountain Home
+-92.922,36.473,Lead Hill - Bull Shoals Lake,870.422.7555,early apr-late oct,AR,Lead Hill
+-90.688,34.705,Maple Flat,870.295.5278/479.964.7200,,AR,Jeffersonville
+-92.438,34.831,Maumelle,501.868.9477,all year,AR,Little Rock
+-93.735,34.157,Parker Creek - Lake Greeson,870.285.2151,early may-late nov,AR,Murfreesboro
+-121.783,36.249,Pfeiffer Big Sur State Park,831.667.2315,mid may-late dec,CA,Big Sur
+-117.319,33.104,South Carlsbad State Beach,760.438.3143,all year,CA,Carlsbad
+-117.822,33.563,Crystal Cove State Park - Moro Campground,949.494.9143,all year,CA,Laguna Beach
+-118.474,35.671,Hungry Gulch,760.379.5646/559.784.1500,mid may-mid sep,CA,Lake Isabella
+-118.486,35.651,Pioneer Point,760.379.5646/559.784.1500,early jun-mid sep,CA,Lake Isabella
+-121.496,35.99,Kirk Creek,831.385.5434/805.961.5778,all year,CA,Lucia
+-124.03,41.359,Elk Prairie  - Prairie Creek Redwoods State Park,707.465.7335,all year,CA,Orick
+-119.595,37.828,Yosemite Creek - Yosemite National Park,209.372.0200,,CA,
+-123.699,38.981,Manchester State Park,707.882.2463,mid may-late dec,CA,Manchester;
+-121.832,36.899,Sunset State Beach,831.763.7062,all year,CA,Watsonville
+-117.177,33.869,Lake Perris State Rec Area,951.940.5600,all year,CA,Perris
+-117.048,32.786,Kumeyaay Lake Campground - Mission Trails Park,,,CA,San Diego
+-122.221,37.169,Big Basin Redwoods State Park,831.338.8860,early mar-late dec,CA,Boulder Creek
+-120.989,39.084,Bear River County Park,530.886.4901,mid jun-mid oct,CA,Colfax
+-118.611,36.452,Cold Springs - Sequoia National Park,559.565.3341,,CA,Three Rivers
+-119.084,37.64,Minaret Falls,760.924.5500/760.873.2400,,CA,Mammoth Lakes
+-121.075,38.789,Peninsula - Folsom Lake State Rec Area,916.988.0205,,CA,Folsom
+-122.654,39.356,Mill Creek,530.934.1250/530.934.3316,,CA,Stonyford
+-121.188,39.914,Mill Creek,530.283.0555/530.283.2050,,CA,Quincy
+-119.937,38.302,Mill Creek,209.965.3434/209.533.3671,,CA,Mi-Wuk
+-118.01,34.343,Horse Flats,818.899.1900/626.574.1613,mid apr-mid nov,CA,La Canada
+-116.583,32.958,Paso Picacho - Cuyamaca Rancho State Park,760.765.3020,all year,CA,Julian
+-116.789,33.386,Oak Grove,`,,CA,Warner Springs
+-120.403,38.868,Sunset,530.644.2349/530.622.5061,early jun-late aug,CA,Pollock Pines
+-120.841,35.333,Morro Bay State Park,805.772.2560,all year,CA,Morro Bay
+-105.497,39.842,Cold Springs,303.567.3000/970.295.6600,mid may-mid sep,CO,Black Hawk
+-105.063,39.539,Chatfield State Park,303.791.7275,mid apr-late oct,CO,Littleton
+-106.349,39.269,Belle of Colorado,719.486.0749/719.545.8737,,CO,Leadville
+-105.76,40.121,Arapaho Bay,970.887.4100/970.295.6600,early jun-mid oct,CO,Granby
+-105.852,40.597,Chambers Lake,970.498.1375/970.295.6600,all year,CO,Rustic
+-106.368,37.126,Elk Creek,719.274.8971/719-852-5941,mid may-mid sep,CO,Antonito
+-105.716,39.613,Guanella Pass,303.567.3000/970.295.6600,early jun-late aug,CO,Georgetown
+-105.521,40.128,Camp Dick,303.541.2500/970.295.6600,mid may-mid oct,CO,Ward
+-105.12,38.871,Crags,719.636.1602/719.545.8737,,CO,Divide
+-106.605,40.585,Teal Lake,970.723.8204/307.745.2300,,CO,Walden
+-106.691,40.496,Granite,970.879.1870/307.745.2300,,CO,Steamboat Springs
+-105.843,39.425,Aspen,719.836.2031/719.545.8737,early jun-late sep,CO,Jefferson
+-105.498,39.932,Kelly Dahl,303.541.2500/970.295.6600,mid may-mid sep,CO,Nederland
+-105.483,40.681,Kelly Flats,970.498.1375/970.295.6600,mid may-mid sep,CO,Rustic
+-105.143,37.326,Bear Lake,719.269.8500/719.545.8737,mid may-mid sep,CO,La Veta
+-108.732,39.121,Saddlehorn - Colorado National Monument,,,CO,Fruita
+-107.547,37.478,Vallecito,970.884.2512/970.247.4874,mid may-mid sep,CO,Vallecito
+-105.6,40.358,Moraine Park,970.586.1418,all year,CO,Estes Park
+-107.883,39.078,Big Creek,970.242.8211/970.874.6600,mid jul-mid sep,CO,Collbran
+-106.747,38.731,Rosy Lane,970.641.0471/970.874.6600,mid jun-late sep,CO,Almont
+-106.734,39.48,Sylvan Lake State Park,970.328.2021,all year,CO,Gypsum
+-107.709,38.586,North Rim - Gunnison National Park,970.641.2337,,CO,
+-105.805,39.483,Hall Valley,303.275.5610/719.545.8737,,CO,Webster
+-105.505,37.745,Pinyon Flats - Sand Dunes National Monument,719.378.6399,all year,CO,Mosca
+-105.569,40.079,Pawnee,303.541.2500/970.295.6600,mid jun-,CO,Nederland
+-73.098,41.651,Black Rock State Park,860.283.8088,early may-late sep,CT,Thomaston
+-72.342,41.484,Devils Hopyard State Park,860.526.2336,mid apr-late sep,CT,East Haddam
+-71.811,41.534,Green Falls - Pachaug State Forest,860.376.4075,,CT,
+-72.556,41.265,Hammonasset State Park,203.245.1817,early jun-late sep,CT,Madison
+-73.004,41.935,Haws Memorial - American Legion State Forest,860. 379.0922,mid apr-late sep,CT,Barkhamsted
+-71.926,41.602,Hopeville Pond State Park,860.376.2920,mid may-late sep,CT,Griswold
+-73.377,41.823,Housatonic Meadows State Park,860.672.6772,mid apr-late sep,CT,Sharon
+-73.205,41.421,Kettletown State Park,203.264.5169,mid may-late sep,CT,Southbury
+-73.384,41.709,Lake Waramaug State Park,860.868.0220,mid may-late sep,CT,Kent
+-73.494,41.777,Macedonia Brook State Park,860.927.3238,mid apr-late sep,CT,Kent
+-71.985,41.859,Mashamoquet Brook State Park,860.928.6121,early jun-late sep,CT,Pomfret Center
+-71.869,41.593,Mount Misery - Pachaug State Forest,860.376.4075,,CT,Voluntown
+-73.224,41.71,Point Folly - White Memorial,860.567.0089,,CT,Bantam
+-72.243,41.31,Rocky Neck State Park,860.739.5471,,CT,Niantic
+-72.093,41.651,Salt Rock State Park,860.822.0884,mid may-late sep,CT,Baltic
+-71.894,41.954,West Thompson Lake,860.923.3121,mid may-late aug,CT,
+-73.216,41.727,Windmill Hill - White Memorial,860.567.0089,,CT,Litchfield
+-71.971,41.852,Wolf Den - Mashamoquet Brook State Park,860.928.6121,early jun-late sep,CT,Pomfret Center
+-75.117,38.78,Cape Henlopen State Park,302.645.8983,early mar-late nov,DE,Lewes
+-75.066,38.606,Delaware Seashore State Park,302.539.7202,early mar-late nov,DE,Rehoboth Beach
+-75.457,39.114,Dover AFB Military,302.677.3959,,DE,Dover
+-75.534,38.979,Killens Pond State Park,302.284.3412,all year,DE,Felton
+-75.718,39.548,Lums Pond State Park,302.368.6989,early mar-late dec,DE,Kirkwood
+-75.6,38.645,Soroptimist Park,,,DE,Seaford
+-75.476,38.53,Trap Pond State Park,302.875.2392,early mar-late nov,DE,Laurel
+-81.274,24.66,Bahia Honda State Park,305.872.2353,all year,FL,Big Pine Key
+-80.983,24.743,Curry Hammock State Park,305.289.2690,all year,FL,Marathon
+-80.405,25.602,Larry and Penny Thompson Park,305.232.1049,,FL,Miami
+-80.47,27.872,Long Point,321.952.4532,,FL,Melbourne Beach
+-81.71,29.182,Juniper Springs,352.625.2520/850.523.8500,all year,FL,
+-82.733,27.614,Fort Desoto County Park,727.893.9185,,FL,Tierra Verde
+-86.157,30.329,Grayton Beach State Park,850.231.4210,all year,FL,Santa Rosa Beach
+-85.212,30.808,Florida Caverns State Park,850.482.9598,all year,FL,Marianna
+-86.3,30.375,Topsail Hill Preserve State Park,850.267.0299,all year,FL,Santa Rosa Beach
+-87.274,30.323,Fort Pickens - Gulf Islands National Seashore,850.934.2622,all year,FL,Pensacola Beach
+-81.286,29.881,Anastasia State Park,904.461.2033,all year,FL,Saint Augustin
+-81.692,29.277,Hopkins Prairie,352.625.2520/850.523.8500,,FL,Ocala
+-82.966,29.496,Manatee Springs State Park,352.493.6072,all year,FL,Chiefland
+-85.005,30.001,Wright Lake,850.643.2282/850.523.8500,all year,FL,Bristol
+-82.224,28.145,Hillsborough River State Park,813.987.6771,all year,FL,Thonotosassa
+-85.2,30.142,Dead Lakes State Rec Area,850.639.2702,,FL,Wewahitchka
+-80.943,25.137,Flamingo - Everglades National Park,239.695.0124,all year,FL,
+-86.883,30.708,Blackwater River State Park,850.983.5363,all year,FL,Milton
+-80.41,25.127,John Pennekamp - Coral Reef State Park,305.451.1202,all year,FL,Key Largo
+-82.211,28.571,Cypress Glen - Withlacoochee State Forest,352.754.6896,,FL,Ridge Manor
+-80.284,27.111,St. Lucie Lock,772.287.1382,all year,FL,Stuart
+-82.477,27.17,Oscar Scherer State Park,941.483.5956,all year,FL,Osprey
+-81.463,28.709,Wekiwa Springs State Park,407.884 2008,all year,FL,Orlando
+-85.395,29.75,St. Joseph Peninsula State Park,850.227.1327,all year,FL,Port St Joe
+-86.447,30.385,Henderson Beach State Park,850.837.7550,all year,FL,Destin
+-82.756,31.509,General Coffee State Park,912.384.7082,all year,GA,Douglas
+-83.395,33.208,Lake Sinclair,706.485.3180/770.297.3000,all year,GA,Eatonton
+-85.49,34.816,Cloudland Canyon State Park,706.657.4050,all year,GA,Rising Fawn
+-84.144,33.807,Stone Mountain Park Campground,770.498.5710,all year,GA,Stone Mountain
+-81.053,31.948,Skidaway Island State Park,912.598.2300,all year,GA,Savannah
+-84.693,34.115,McKinney - Allatoona Lake,678.721.6700,all year,GA,Cartersville
+-83.97,34.739,Lake Winfield Scott,706.745.6928/770.297.3000,mid apr-mid nov,GA,Suches
+-83.726,33.019,Dames Ferry County Park,478.994.7945,,GA,Juliette
+-84.585,34.191,Sweetwater - Allatoona Lake,678.721.6700,mid mar-late aug,GA,Cartersville
+-81.413,31.106,Jekyll Island County Park,912.635.3021,,GA,Jekyll Island
+-84.815,32.839,F.D. Roosevelt State Park,706.663.4858,all year,GA,Pine Mountain
+-83.545,34.928,Tallulah River,706.782.3322/770.297.3000,,GA,Clayton
+-83.92,33.245,Indian Springs State Park,770.504.2277,all year,GA,Jackson
+-84.037,34.21,Shady Grove,770.887.2067,,GA,Cumming
+-83.92,33.245,Indian Springs State Park,770.504.2277,all year,GA,Jackson
+-84.619,34.121,Payne - Allatoona Lake,678.721.6700,mid mar-late aug,GA,Cartersville
+-82.261,33.66,Petersburg - Strom Thurmond Lake,706.541.9464,early mar-late nov,GA,Appling
+-82.361,30.827,Stephen C. Foster State Park,912.637.5274,all year,GA,Fargo
+-85.095,32.729,Blanton Creek Park,706.643.7737,,GA,Hamilton
+-84.077,34.18,Sawnee,770.887.0592,mid mar-late aug,GA,Cumming
+-81.562,31.913,Holbrook Pond Military - Fort Stewart,912.435.8213,,GA,Hinesville
+-85.192,33.003,Holiday,706.884.6818,early mar-mid sep,GA,West Point
+-83.912,34.71,Desoto Falls,706.745.6928/770.297.3000,,GA,Cleveland
+-83.734,33.985,Fort Yargo State Park,770.867.3489,all year,GA,Winder
+-84.722,34.192,McKaskey Creek - Allatoona Lake,678.721.6700,mid mar-late aug,GA,Cartersville
+-159.305,22.147,Anahola Beach Park   -  Kauai,808.241.6660,,HI,Anahola
+-157.707,21.351,Bellows Field Beach Park  - Oahu,808.523.4525,,HI,Waimanalo
+-156.622,20.811,Camp Olowalu  - Maui,808.661.4303,,HI,Lahaina
+-159.566,22.22,Haena Beach Park  - Kauai,808.241.6660,,HI,Kilauea
+-159.342,21.994,Hanamaulu Beach Park  - Kauai,808.241.6660,,HI,Lihue
+-156.229,20.753,Holua Dispersed - Haleakala National Park - Maui,808.572.4400,,HI,Kula
+-155.898,19.38,Hookena Beach Park  - Hawaii,808.691.8311,,HI,Captain Cook
+-157.884,21.544,Kahana Valley State Park - Oahu,808.587.0300,all year,HI,Hauula
+-155.433,20.043,Kalopa State Rec Area - Hawaii,,all year,HI,Honokaa
+-156.438,20.9,Kanaha Beach Park - Maui,808.270.7389,,HI,Kahului Airport
+-157.902,21.397,Keaiwa Heiau State Rec Area - Oahu,808.587.0300,all year,HI,Aiea
+-159.562,22.113,Koaie Primitive - Kokee State Park - Kauai,808.274.3433,all year,HI,Kilauea
+-159.662,22.116,Kokee Campground  - Kokee State Park - Kauai,808.335.6061,all year,HI,Waimea
+-155.12,19.882,Kolekole Beach Park  - Hawaii,808.974.6200,,HI,Honomu
+-159.666,21.953,Lucy Wright Beach Park  - Kauai,808.241.6660,,HI,Waimea
+-157.929,21.66,Malaekahana  State Rec Area - Oahu,808.587.0300,all year,HI,Kailua
+-155.829,19.113,Manuka State Wayside - Hawaii,808.974.6200,all year,HI,Captain Cook
+-155.296,19.425,Namakani Paio - Hawaii Volcanoes National Park,808.967.7321,,HI,Volcano
+-159.364,21.954,Niumalu Park - Kauai,808.241.6660,,HI,Lihue
+-155.037,19.736,Onekahakaha - Hawaii,808.974.6200,,HI,Hilo
+-157.012,21.173,Palaau State Park - Molokai,808.984.8109,all year,HI,Hoolehua
+-156.329,20.678,Polipoli Spring State Rec Area - Maui,808.984.8109.,all year,HI,Kula
+-159.608,21.9,Salt Pond Beach  - Kauai,808.244.6660,,HI,Eleele
+-159.622,22.13,Sugi Grove Primitive - Kokee State Park,808.241.3433,all year,HI,Hanapepe
+-155.549,19.088,Whittington Beach Park  - Hawaii,808.691.8311,,HI,Naalehu
+-116.374,43.234,Swan Falls - Idaho Power,,,ID,Kuna
+-114.39,43.291,Lava Point  - Magic Reservoir,,,ID,Fairfield
+-113.559,43.46,Lava Flow - Craters of the Moon National Mon,208.527.3257,,ID,Arco
+-116.907,44.412,Mann Creek Recreation Area,208.549.4200,mid apr-late oct,ID,Weiser
+-114.933,44.2,Glacier View,208.727.5000/208.737.3200,early jun-mid sep,ID,Stanley
+-116.169,46.772,Elk Creek,208.875.1701/208.476.8273,all year,ID,Elk River
+-115.543,44.072,Kirkham,208.259.3361/208.373.4100,all year,ID,Lowman
+-116.047,44.521,Lake Cascade State Park,208.382.6544,all year,ID,Cascade
+-115.76,45.062,Ponderosa,208.634.0600/208.634.0700,,ID,Cascade
+-115.963,45.826,South Fork,208.983.1963/208.983.1950,,ID,Harpster
+-88.156,37.469,Cave - In - Rock State Park,618.289.4325,,IL,Cave-In-Rock
+-88.966,37.533,Ferne Clyffe State Park,618.995.2411,early apr-late dec,IL,Goreville
+-91.056,41.348,Blanchard Island - Mississippi River,563.263.7913,,IL,Muscatine
+-87.979,41.204,Kankakee River State Park,815.933.1383,all year,IL,Bourbonnais
+-89.475,41.993,White Pines Forest State Park,815.946.3717,all year,IL,Polo
+-88.978,42.37,Rock Cut State Park,815.885.3311,all year,IL,Loves Park
+-89.011,41.321,Starved Rock State Park,815.667.4726,all year,IL,Utica
+-88.773,39.445,Opossum Creek - Shelbyville Lake,217.774.3951,mid may-late aug,IL,Shelbyville
+-88.379,37.603,Pharoah  -  Garden Of The Gods,618.658.2111/618.253.7114,all year,IL,Harrisburg
+-91.479,40.112,Bear Creek - Mississippi River,217.222.0918,,IL,Marcelline
+-85.022,41.708,Pokagon State Park,260.833.2012,all year,IN,Angola
+-86.271,39.177,Brown County State Park,812.988.6406,all year,IN,Nashville
+-85.402,41.341,Chain OLakes State Park,260.636.2654,all year,IN,Albion
+-84.942,39.612,Whitewater Memorial State Park,765.458.5565,all year,IN,Liberty
+-86.077,38.817,Starve Hollow  State Rec Area,812.358.3464,all year,IN,Vallonia
+-86.431,39.013,Hardin Ridge,812.275.5987/812.275.5987,mid may-late dec,IN,Bloomington
+-85.702,38.777,Hardy Lake  State Rec Area,812.794.3800,all year,IN,Scottsburg
+-86.339,39.186,Yellowwood State Forest,812.988.7945,,IN,Nashville
+-85.303,40.026,Summit Lake State Park,765.766.5873,all year,IN,New Castle
+-86.726,39.283,McCormicks Creek State Park,812.829.2235,all year,IN,Spencer
+-91.165,42.993,Pikes Peak State Park,563.873.2341,all year,IA,McGregor
+-90.775,42.119,Maquoketa Caves State Park,563.652.5833,all year,IA,Maquoketa
+-91.56,42.616,Backbone State Park,563.924.2527,all year,IA,Dundee
+-90.423,42.247,Bellevue State Park,563.872.4019,all year,IA,Bellevue
+-93.389,43.111,Clear Lake State Park,641.357.4212,all year,IA,Clear Lake
+-93.68,41.732,Cherry Glen - Saylorville Lake,515.964.8792,mid apr-mid oct,IA,Des Moines
+-96.47,42.557,Stone State Park,712.255.4698,all year,IA,Sioux City
+-95.59,41.432,Arrowhead Park,712.485.2295,,IA,Neola
+-91.508,41.909,Palisades Kepler State Park,319.895.6039,all year,IA,Mt.Vernon
+-91.577,41.798,Lake Macbride State Park,319.624.2200,all year,IA,Solon
+-96.9,39.101,Milford State Park,785.238.3014,all year,KS,Milford
+-101.894,37.119,Cimarron,620.697.4621/719.545.8737,,KS,Elkhart
+-95.354,38.942,Clinton State Park,785.842.8562,all year,KS,Lawrence
+-96.786,37.833,El Dorado State Park,316.321.7180,all year,KS,El Dorado
+-100.918,38.668,Scott State Park,620.872.2061,all year,KS,Scott City
+-96.589,39.256,Tuttle Creek State Park,785.539.7941,all year,KS,Manhattan
+-95.581,38.654,Pomona State Park,785.828.4933,all year,KS,Vassar
+-99.732,38.808,Cedar Bluff State Park - North Shore,785.726.3212,all year,KS,Ellis
+-95.747,38.536,Eisenhower State Park,785.528.4102,all year,KS,Osage City
+-98.495,38.909,Wilson State Park,785.658.2465,all year,KS,Sylvan Grove
+-84.826,36.951,Fall Creek,606.348.6042,,KY,Somerset
+-85.337,37.272,Green River Lake State Park,270.465.8255,mid mar-mid dec,KY,Campbellsville
+-88.282,37.012,Kentucky Dam Village State Park,800.325.0146,early apr-late oct,KY,Gilbertsville
+-86.062,36.854,Barren River Lake State Park,800.325.0057,early apr-late oct,KY,Lucas
+-86.097,37.184,Mammoth Cave - Mammoth Cave National Park,270.758.2424,all year,KY,Mammoth Cave
+-84.267,36.982,Holly Bay Rec Area,606.864.4163/859.745.3100,early apr-mid oct,KY,London
+-82.684,38.089,Yatesville Lake State Park,606.673.1492,early apr-late oct,KY,Louisa
+-83.484,38.071,Zilpo Rec Area,606.784.6428/859.745.3100,mid may-mid oct,KY,Salt Lick
+-84.748,38.889,Big Bone Lick State Park,859.384.3522,early apr-late oct,KY,Union
+-83.633,37.784,Koomer Ridge Rec Area,606.784.6428/859.745.3100,,KY,Pine Ridge
+-90.155,29.9,Bayou Segnette State Park,504.736.7140,all year,LA,Westwego
+-92.47,31.114,Indian Creek Recreation Area,318.487.5058,,LA,Woodworth
+-90.023,30.345,Fontainebleau State Park,985.624.4443,all year,LA,Mandeville
+-93.731,31.592,North Toledo Bend State Park,318.645.4715,all year,LA,Zwolle
+-92.288,30.79,Chicot State Park,337.363.2403,all year,LA,Ville Platte
+-89.956,29.258,Grand Isle State Park,985.787.2559,all year,LA,Grand Isle
+-92.52,32.25,Jimmie Davis State Park,318.249.2595,all year,LA,Chatham
+-93.093,31.445,Kisatchie Bayou Complex,318.472.1840/318.471.7160,,LA,Provencal
+-92.908,30.129,Lorrain Parish Park,337.721.3540,,LA,Bell City
+-93.376,32.443,Lake Bistineau State Park,318.745.3503,all year,LA,Doyline
+-68.264,45.524,Mattawamkeag Wilderness Park,888.724.2465,,ME,Lincoln
+-71.063,44.306,Wild River,,,ME,Gilead
+-68.214,44.313,Blackwoods - Acadia National Park,207.288.3338,all year,ME,Bar Harbor
+-68.306,44.241,Seawall - Acadia National Park,207.244.3600,mid may-late sep,ME,Southwest Harb
+-69.289,45.26,Peaks - Kenny State Park,207.564.2003,mid may-late sep,ME,Dover-Foxcroft
+-67.153,44.854,Cobscook Bay State Park,207.726.4412,mid may-mid oct,ME,Dennysville
+-70.982,44.036,Swans Falls Campground,207.935.3395,,ME,Fryeburg
+-71.013,44.265,Cold River,603.528.8721/603.528.8721,,ME,Fryeburg
+-68.9,46.109,South Branch Pond - Baxter State Park,207.723.5140,mid may-mid oct,ME,Millinocket
+-70.448,44.681,Mount Blue State Park,207.585.2347,all year,ME,Weld
+-75.162,38.208,Bayside - Assateague National Seashore,410.641.3030,mid april - mid oct,MD,Berlin
+-75.985,39.48,Elk Neck State Park,410.287.5333,all year,MD,North East
+-78.651,39.696,Rocky Gap State Park,301.722.1480,early may-mid dec,MD,Flintstone
+-76.331,38.063,Point Lookout State Park,301.872.5688,all year,MD,Scotland
+-78.457,39.657,Green Ridge State Forest - Dispersed,301.478.3124,all year,MD,Flintstone
+-76.895,38.996,Greenbelt Park,301.344.3948,all year,MD,Greenbelt
+-75.932,38.981,Tuckahoe State Park,410.820.1668,early apr-late nov,MD,Queen Anne
+-79.129,39.631,New Germany State Park,301.895.5453,all year,MD,Grantsville
+-79.148,39.619,Savage River State Forest,301.895.5759,,MD,Grantsville
+-76.165,39.612,Susquehanna State Park,410.734.9035,early apr-late oct,MD,Havre de Grace
+-70.514,41.756,Shawme Crowell State Forest,508.888.0351,all year,MA,Sandwich
+-71.041,41.5,Horseneck Beach State Reservation,508.636.8816,early may-late sep,MA,Westport
+-71.091,42.611,Harold Parker State Forest,978.686.3391,early jun-late aug,MA,Andover
+-72.042,42.141,Wells State Park,508.347.9257,early may-late sep,MA,Sturbridge
+-70.667,41.867,Myles Standish State Forest,508.866.2526,mid may-late sep,MA,Plymouth
+-73.234,42.336,October Mountain State Forest,413.243.1778,early may-late sep,MA,Lee
+-72.941,42.642,Mohawk Trail State Forest,413.339.5504,early may-mid oct,MA,Charlemont
+-73.188,42.632,Mt. Greylock State Reservation,413.499.4262,early jun-late sep,MA,Williamstown
+-72.042,42.141,Wells State Park,508.347.9257,early may-late sep,MA,Sturbridge
+-70.846,42.2,Wompatuck State Park,781.749.7160,early may-mid oct,MA,Hingham
+-83.213,43.98,Sleeper State Park,989.856.4411,all year,MI,Caseville
+-86.595,41.901,Warren Dunes State Park,269.426.4013,,MI,Sawyer
+-85.036,46.555,Tahquamenon Falls State Park,906.492.3415,all year,MI,Paradise
+-85.551,44.746,Traverse City State Park,231.922.5270,all year,MI,Traverse City
+-84.847,44.695,Manistee River Bridge - State Forest,989.348.6371,all year,MI,Grayling
+-86.595,41.901,Warren Dunes State Park,269.426.4013,,MI,Sawyer
+-84.9,45.746,Wilderness State Park,231.436.5381,early apr-late nov,MI,Carp Lake
+-84.775,44.401,Houghton Lake - Roscommon State Forest,989.275.4622,all year,MI,Houghton Lake
+-86.505,44.033,Ludington State Park,231.843.2423,all year,MI,Free Soil
+-86.423,44.118,Lake Michigan Rec Area,/231.775.2421,,MI,Free Soil
+-91.467,47.144,Gooseberry Falls State Park,218.834.3855,all year,MN,Two Harbors
+-95.197,47.234,Itasca State Park,218.266.2100,all year,MN,Park Rapids
+-90.082,47.882,Judge Magney State Park,218.387.3039,all year,MN,Grand Marais
+-92.291,44.471,Hok Si La City Park,651.345.3855,,MN,Lake City
+-95.53,45.541,Glacial Lakes State Park,320.239.2860,all year,MN,Starbuck
+-92.736,45.537,Wild River State Park,651.583.2125,all year,MN,Center City
+-91.376,47.202,Split Rock Lighthouse State Park,218.226.6377,all year,MN,Two Harbors
+-92.791,44.848,Afton State Park,651.436.5391,all year,MN,Hastings
+-91.722,47.952,Fall Lake,218.365.7600/218.626.4300,early may-late sep,MN,Ely
+-93.108,44.342,Nerstrand Big Woods State Park,507.333.8848,all year,MN,Nerstrand
+-89.402,30.266,Buccaneer State Park,228.467.3822,all year,MS,Waveland
+-88.71,32.032,Archusa Creek Waterpark,601.776.6956,all year,MS,Quitman
+-90.985,31.425,Clear Spgs Rec Area,601.384.5876/601.965.1700,all year,MS,Meadville
+-88.796,30.397,Davis Bayou - Gulf Islands National Seashore,228.875.2358,,MS,Ocean Springs
+-89.729,33.803,Hugh White State Park,662.226.4934,all year,MS,Grenada
+-89.348,34.438,Puskus Lake,601.236.6550/601.965.1700,,MS,Oxford
+-91.202,31.602,Natchez State Park,601.442.2658,all year,MS,Natchez
+-88.328,34.569,Piney Grove,662.728.1134,early mar-late nov,MS,New Site
+-89.23,31.135,Paul B Johnson State Park,601.582.7721,all year,MS,Hattiesburg
+-88.193,34.614,Tishomingo State Park,662.438.6914,all year,MS,Tishomingo
+-92.859,37.738,Bennett Spring State Park,417.532.4338,all year,MO,Lebanon
+-91.102,38.207,Meramec State Park,573.468.6072,all year,MO,Sullivan
+-93.309,36.583,Table Rock State Park,417.334.4704,early apr-late oct,MO,Branson
+-93.837,36.584,Roaring River State Park,417.847.2539,all year,MO,Cassville
+-91.576,38.909,Graham Cave State Park,573.564.3476,early apr-late oct,MO,Montgomery Cit
+-93.44,36.594,Mill Creek - Table Rock Lake,417.334.4104,early apr-late oct,MO,Kimberling City
+-90.505,37.255,Sam A Baker State Park,573.856.4411,all year,MO,Des Arc
+-92.573,38.077,Lake of the Ozarks State Park,573.348.2694,all year,MO,Kaiser
+-91.675,37.454,Montauk State Park,573.548.2201,all year,MO,Salem
+-90.344,36.942,Lake Wappapello State Park,573.297.3232,all year,MO,Williamsville
+-113.977,48.528,Apgar - Glacier National Park,406.888.7800,,MT,West Glacier
+-111.851,45.823,Lewis and Clark Caverns State Park,406.287.3541,all year,MT,Whitehall
+-114.311,47.811,Big Arm State Park,406.849.5256,early may-late sep,MT,Polson
+-113.617,47.446,Holland Lake,406.837.7500/406.758.5200,mid may-late sep,MT,Seeley Lake
+-109.897,45.352,Woodbine,406.446.2103/406.657.6200,mid may-mid sep,MT,Nye
+-109.511,46.794,Crystal Lake,406.566.2292/406.791.7701,,MT,Lewistown
+-115.856,48.221,Bad Medicine,406.295.4693/406.293.6211,,MT,Troy
+-104.71,47.09,Makoshika State Park,406.377.6256,all year,MT,Glendive
+-107.928,45.31,Afterbay - Bighorn Canyon National Rec Area,406.666.2412,,MT,Fort Smith
+-106.887,47.617,Hell Creek State Park,406.232.0900,all year,MT,Jordan
+-99.83,40.679,Johnson Lake  State Rec Area,308.785.2685,all year,NE,Lexington
+-103.007,42.708,Chadron State Park,308.432.6167,all year,NE,Chadron
+-96.183,41,Louisville Lakes  State Rec Area,402.234.6855,all year,NE,Louisville
+-96.863,40.851,Pawnee Lake State Rec Area,402.796.2362,all year,NE,Emerald
+-103.088,42.467,Box Butte  State Rec Area,308.665.2903,,NE,Hemingford
+-101.109,40.171,Swanson Reservoir  State Rec Area,308.276.2671,,NE,Trenton
+-98.846,40.707,Windmill  State Rec Area,308.468.5700,all year,NE,Gibbon
+-96.559,41.444,Fremont Lakes  State Rec Area,402.727.3290,all year,NE,Fremont
+-98.989,40.652,Fort Kearny  State Rec Area,308.865.5305,all year,NE,Kearney
+-96.574,40.631,Wagon Train State Rec Area,402.471.5566,,NE,Hickman
+-114.415,37.821,Cathedral Gorge State Park,775.728.4460,all year,NV,Panaca
+-117.595,38.869,Berlin - Ichthyosaur State Park,775.964.2440,all year,NV,Gabbs
+-115.607,36.311,Hilltop,702.515.5400/775.331.6444,early may-late sep,NV,Las Vegas
+-115.476,40.254,Ruby Lake,,,NV,Ruby Valley
+-114.694,39.191,Cave Lake State Park,775.296.1505,all year,NV,Ely
+-119.272,39.292,Fort Churchill State Park,775.577.2345,all year,NV,Silver Springs
+-114.269,37.913,Echo Canyon Reservoir State Park,775.962.5103,all year,NV,Pioche
+-119.953,38.981,Nevada Beach,530.543.2600/530.543.2600,early may-mid oct,NV,Stateline
+-115.086,41.026,Angel Lake,775.752.3357/775.331.6444,mid jun-late aug,NV,Wells
+-114.203,38.024,Spring Valley State Park,775.962.5102,all year,NV,Pioche
+-71.685,44.139,Lafayette - Franconia Notch State Park,603.823.9513,mid may-late dec,NH,Franconia Notch
+-71.225,43.845,White Lake State Park,603.323.7350,early jun-late sep,NH,Tamworth
+-71.173,43.08,Pawtuckaway State Park,603.895.3031,early jun-late oct,NH,Nottingham
+-71.505,44.26,Sugarloaf,603.528.8721,mid may-late sep,NH,Twin Mountain
+-71.331,43.115,Bear Brook State Park,603.485.9869,early jun-late sep,NH,Allenstown
+-71.05,44.704,Umbagog Lake,603.482.7795,,NH,Cambridge
+-71.302,45.06,Lake Francis State Park,603.538.6965,early jun-late sep,NH,Pittsburg
+-70.816,42.899,Hampton Beach State Park,603.926.3784,all year,NH,Hampton
+-71.4,44.178,Dry River - Crawford Notch State Park,603.374.2272,early jun-late sep,NH,Harts Location
+-71.231,44.4,Moose Brook State Park,603.466.3860,early jun-late sep,NH,Gorham
+-74.689,41.291,High Point State Park - Sawmill Area,973.875.4800,early apr-late oct,NJ,Sussex
+-75.139,39.509,Parvin State Park,856.358.8616,early apr-late oct,NJ,Pittsgrove Twp.
+-74.849,39.243,Belleplain State Forest,609.861.2404,,NJ,Woodbine
+-74.522,39.872,Brendan Byrne State Forest,609.726.1191,,NJ,Vincentown
+-74.81,40.872,Stephens State Park,908.852.3790,early apr-late oct,NJ,Hackettstown
+-73.991,40.45,Sandy Hook - Gateway National Rec Area,718.354.4655,,NJ,Highlands
+-75.104,41.005,Worthington State Forest,908.841.9575,,NJ,Columbia
+-74.82,41.076,Swartswood State Park,973.383.5230,early apr-late oct,NJ,Newton
+-74.59,41.002,Mahlon Dickerson Reservation,973.697.3140,,NJ,Lake Hopatcong
+-74.266,40.446,Cheesequake State Park,732.566.2161,early apr-late oct,NJ,South Amboy
+-106.56,32.372,Aguirre Springs,,all year,NM,Las Cruces
+-107.976,32.59,City of Rocks State Park,575.536.2800,all year,NM,Deming
+-108.498,33.422,Dipping Vat,505.533.6232/505.388.8201,mid apr-mid sep,NM,Reserve
+-104.338,33.344,Bottomless Lakes State Park,505.624.6056,all year,NM,Roswell
+-107.613,32.186,Rockhound State Park,575.546.6182,all year,NM,Deming
+-106.738,36.614,El Vado Lake State Park,575.588.7247,mid may-mid sep,NM,Tierra Amarill
+-105.92,33.685,Valley of Fires,575.648.2241,all year,NM,Carrizozo
+-105.118,36.778,McCrystal,505.586.0520/505.758.6200,mid may-mid oct,NM,Costilla
+-107.209,33.181,Elephant Butte Lake State Park,575.744.5923,early mar-late sep,NM,Truth Or Consequences
+-105.729,32.967,Apache,505.682.2551/505.434.7200,mid may-mid sep,NM,Cloudcroft
+-75.855,44.377,Kring Point State Park,315.482.2444,early may-late sep,NY,Redwood
+-72.016,41.008,Hither Hills State Park,631.668.2554,all year,NY,Montauk
+-74.869,42.794,Glimmerglass State Park,607.547.8662,all year,NY,Cooperstown
+-74.407,44.307,Rollins Pond - DEC,518.891.3239,mid may-late aug,NY,Tupper Lake
+-76.881,42.37,Watkins Glen State Park,607.535.4511,mid may-mid oct,NY,Watkins Glen
+-74.037,42.203,North/South Lake  - DEC,518.589.5058,early may-mid oct,NY,Haines Falls
+-74.821,44.197,Cranberry Lake  - DEC,315.848.2315,mid may-mid oct,NY,Cranberry Lake
+-72.805,40.963,Wildwood State Park,631.929.4314,early jun-late sep,NY,Wading River
+-78.045,42.584,Letchworth State Park,585.493.3600,all year,NY,Castile
+-73.41,42.622,Cherry Plain State Park,518.733.5400,mid jun-late sep,NY,Cherry Plain
+-81.933,35.966,Linville Falls - Blue Ridge Parkway,828.765.7818,mid may-late oct,NC,Newland
+-82.271,35.76,Mount Mitchell State Park,828.675.4611,all year,NC,Asheville
+-82.756,35.404,Mount Pisgah - Blue Ridge Parkway,828.648.2644,mid may-late oct,NC,Canton
+-80.268,36.394,Hanging Rock State Park,336.593.8480,all year,NC,Walnut Cove
+-76.684,36.43,Merchants Millpond State Park,252.357.1191,all year,NC,Sunbury
+-78.604,34.699,Jones Lake State Park,910.588.4550,all year,NC,Elizabethtown
+-75.544,35.239,Cape Point - Cape Hatteras National Seashore,252.473.2111,,NC,Buxton
+-77.904,34.045,Carolina Beach State Park,910.458.8206,all year,NC,Carolina Beach
+-82.729,35.283,Davidson River,828.877.3265/828.257.4200,all year,NC,Pisgah Forest
+-79.016,35.724,Poplar Point State Rec Area - Jordan Lake,919.362.0586,mid mar-late nov,NC,Apex
+-100.337,48.979,Lake Metigoshe State Park,701.222.1844,all year,ND,Bottineau
+-101.452,47.524,Lake Sakakawea State Park,701.487.3600,all year,ND,Pick City
+-102.758,47.558,Little Missouri State Park,701.764.5256,mid may-mid sep,ND,Killdeer
+-97.483,47.933,Turtle River State Park,701.594.4445,all year,ND,Larimore
+-97.74,48.773,Icelandic State Park,701.265.4561,all year,ND,Cavalier
+-99.618,46.404,Beaver Lake State Park,701.452.2752,mid may-late aug,ND,Napoleon
+-103.337,47.594,Juniper - Theodore Roosevelt National Park,701842.2333,,ND,Watford City
+-101.427,47.481,Downstream - Lake Sakakawea,701.654.7440,early may-late sep,ND,Pick City
+-101.42,47.591,Fort Stevenson State Park,701.337.5576,all year,ND,Garrison
+-103.811,47.673,Sather Lake,701.842.2393/701.250.4443,,ND,Alexander
+-82.698,41.602,Kelleys Island State Park,419.746.2546,all year,OH,Kelleys Island
+-82.538,39.433,Hocking Hills State Park,740.385.6841,all year,OH,Logan
+-82.257,40.61,Mohican State Park,419.994.5125,all year,OH,Loudonville
+-82.103,40.029,Dillon State Park,740.452.1083,all year,OH,Nashport
+-82.987,40.237,Alum Creek State Park,740.548.4631,all year,OH,Delaware
+-84.765,39.595,Hueston Woods State Park,513.523.6347,all year,OH,College Corner
+-81.46,40.082,Salt Fork State Park,740.439.3521,all year,OH,Lore City
+-83.9,40.519,Indian Lake State Park,937.843.2717,all year,OH,Lakeview
+-82.219,41.134,Findley State Park,440.647.5749,all year,OH,Wellington
+-83.869,39.789,John Bryan State Park,937.767.1274,all year,OH,Yellow Springs
+-94.688,34.137,Beavers Bend State Park,580.494.6300,all year,OK,Broken Bow
+-102.882,36.84,Black Mesa State Park,580.426.2222,all year,OK,Kenton
+-99.304,36.454,Boiling Springs State Park,580.256.7664,all year,OK,Woodward
+-95.171,35.624,Greenleaf State Park,918.487.5196,all year,OK,Braggs
+-98.359,35.456,Red Rock Canyon State Park,405.542.6344,all year,OK,Hinton
+-96.069,35.619,Okmulgee - Dripping Springs  State Park,918.756.5971,all year,OK,Okmulgee
+-94.67,36.176,Natural Falls State Park,918.422.5802,all year,OK,Colcord
+-95.357,34.985,Robbers Cave State Park,918.465.2565,all year,OK,Wilburton
+-99.304,36.454,Boiling Springs State Park,580.256.7664,all year,OK,Woodward
+-97.248,35.232,Lake Thunderbird State Park,405.360.3572,all year,OK,Norman
+-123.972,45.353,Cape Lookout State Park,503.842.4981,all year,OR,Tillamook
+-122.165,42.866,Mazama  - Crater Lake National Park,541.594.3000,,OR,
+-122.651,44.866,Silver Falls State Park,503.873.8681,all year,OR,Salem
+-122.092,44.185,Paradise,541.822.3381/541.225.6300,mid may-mid oct,OR,McKenzie Bridge
+-121.243,43.714,Little Crater,541.383.4000/541.383.5300,,OR,La Pine
+-124.307,42.067,Harris Beach State Park,541.469.2021,all year,OR,Brookings
+-123.199,45.739,L. L. Stub Stewart State Park,503.324.0606,all year,OR,Banks
+-122.615,42.684,Joseph Stewart State Park,541.560.3334,all year,OR,Medford
+-122.465,42.894,Natural Bridge,541.865.2700/541.618.2200,,OR,Prospect
+-118.674,44.32,Strawberry,541.820.3800/541.575.3000,,OR,Prairie City
+-76.383,39.877,Otter Creek - PPL,717.862.3628,,PA,Airville
+-76.296,41.336,Ricketts Glen State Park,570.477.5675,all year,PA,Benton
+-75.696,41.026,Hickory Run State Park,570.444.405,early apr-mid dec,PA,White Haven
+-75.797,40.196,French Creek State Park,650.562.5650,all year,PA,Elverson
+-77.821,41.663,Cherry Springs State Park,654.425.5050,mid apr-mid dec,PA,Coudersport
+-80.428,40.507,Raccoon Creek State Park,724.896.5003,all year,PA,Hookstown
+-77.762,40.646,Greenwood Furnace State Park,814.667.1800,early apr-late oct,PA,Huntingdon
+-74.873,41.211,Dingmans - Delaware Water Gap National Rec Area,570.828.1551,,PA,Dingman's Ferr
+-75.84,40.03,Hibernia County Park,610.383.3812,,PA,Coatesville
+-75.801,40.846,Mauch Chunk Lake County Park,570.325.3669,,PA,Jim Thorpe
+-71.7,41.37,Burlingame State Park,401.322.7994,,RI,Charlestown
+-71.295,41.568,Carr Point Military - Newport NS,401.841.3116,,RI,
+-71.637,41.358,Charlestown Breachway State Park,401.322.8910,early jun-late oct,RI,Charlestown
+-71.692,41.343,East Beach - Ninigret State Conservation Area,401. 322.0450,early jun-late aug,RI,Charlestown
+-71.488,41.38,Fishermens Memorial State Park,401.789.8374,early jun-late oct,RI,Narragansett
+-71.399,41.489,Fort Getty Camping and Recreation Area,,,RI,Newport
+-71.755,41.92,George Washington State Area,401.568.2013,early jun-late oct,RI,Chepachet
+-71.275,41.589,Melville Ponds,401.682.2424,,RI,Portsmouth
+-71.252,41.487,Middletown City Campground,401.846.6273,,RI,Middeltown
+-82.616,34.108,Calhoun Falls State Rec Area,864.447.8267,all year,SC,Calhoun Falls
+-79.911,34.638,Cheraw State Park,843.537.9656,all year,SC,Cheraw
+-82.951,34.952,Devils Fork State Park,864.944.2639,all year,SC,Salem
+-81.404,34.085,Dreher Island State Rec Area,803.364.4152,all year,SC,Prosperity
+-80.297,32.504,Edisto Beach State Park,843.869.2756,all year,SC,Edisto Island
+-82.411,33.882,Hickory Knob State Resort Park,800.491.1764,all year,SC,Mccormick
+-82.887,34.931,Keowee - Toxaway State Natural Area,864.868.2605,all year,SC,Sunset
+-81.951,34.195,Lake Greenwood State Park,864.543.3535,all year,SC,Ninety Six
+-80.87,34.431,Lake Wateree State Rec Area,803.482.6401,all year,SC,Winnsboro
+-83.103,34.868,Oconee State Park,864.638.5353,all year,SC,Mountain Rest
+-80.81,34.843,Andrew Jackson State Park,803. 285.3344,all year,SC,Lancaster
+-103.566,43.846,Sylvan Lake - Custer State Park,605.255.4515,mid may-late sep,SD,Custer
+-103.86,44.481,Spearfish City Campground,605.642.1340,,SD,Spearfish
+-103.498,44.059,Pactola,605.343.1567/605.673.9200,mid may-late aug,SD,Hill City
+-97.553,42.86,Gavins Point - Lewis and Clark State Rec Area,605.668.2985,all year,SD,
+-103.484,43.895,Horsethief Lake,605.673.4853/605.673.9200,mid may-late aug,SD,Keystone
+-97.181,43.587,Lake Vermillion State Rec Area,605.296.3643,all year,SD,Sioux Falls
+-103.481,43.718,Blue Bell - Custer State Park,605.255.4515,,SD,Custer
+-103.663,44.199,Roubaix Lake,605.642.4622/605.673.9200,mid may-late aug,SD,Deadwood
+-96.52,43.688,Palisades State Park,605.594.3824,all year,SD,Brandon
+-96.594,43.573,Big Sioux State Rec Area,605. 582.7243,all year,SD,Brandon
+-83.777,35.604,Cades Cove  - Great Smoky Mountains National Park,865.448.2472,mid may-late dec,TN,Townsend
+-85.357,35.655,Fall Creek Falls State Park,800.250.8611,all year,TN,Pikeville
+-84.113,35.304,Spivey Cove,423.253.8400/423.476.9700,,TN,Tellico Plains
+-84.509,36.123,Frozen Head State Park,423.346.3318,all year,TN,Wartburg
+-83.21,35.752,Cosby - Great Smoky Mountains National Park,865.436.1261,all year,TN,Gatlinburg
+-81.814,36.594,Backbone Rock Rec Area,423.735.1500/423.476.9700,,TN,Bristol
+-88.035,36.487,Piney,270.924.2000/270.924.2000,,TN,Dover
+-85.112,35.168,Harrison Bay State Park,423.344.6214,all year,TN,Harrison
+-86.355,36.378,Bledsoe Creek State Park,615.452.3706,all year,TN,Gallatin
+-86.57,36.134,Seven Points,615.889.1975,early apr-late oct,TN,Hermitage
+-98.504,29.853,Guadalupe River State Park,830.438.2656,all year,TX,Spring Branch
+-97.221,27.583,Padre Balli County Park,361.949.8121,,TX,Corpus Christi
+-101.702,34.985,Palo Duro Canyon State Park,806.488.2227,all year,TX,Canyon
+-94.176,32.68,Caddo Lake State Park,903.679.3351,all year,TX,Karnack
+-98.814,30.501,Enchanted Rock State Natural Area,325.247.3903,all year,TX,Fredericksburg
+-103.787,30.946,Balmorhea State Park,432.375.2370,all year,TX,Toyahvale
+-98.369,30.737,Inks Lake State Park,512.793.2223,all year,TX,Burnet
+-95.15,31.391,Ratcliff Lake,936.655.2299/936.639.8501,all year,TX,Ratcliff
+-95.281,32.482,Tyler State Park,903.597.5338,all year,TX,Tyler
+-97.814,32.246,Dinosaur Valley State Park,254.897.4588,all year,TX,Glen Rose
+-112.25,41.058,Antelope Island State Park,801.773.2941,all year,UT,
+-111.414,37.793,Calf Creek,,,UT,Escalante
+-109.74,38.486,Dead Horse Point State Park,435.259.2614,all year,UT,Moab
+-111.249,38.283,Fruita - Capitol Reef National Park,435.425.3791,all year,UT,Torrey
+-109.927,37.175,Goosenecks State Park,435.678.2238,all year,UT,Blanding
+-110.885,40.701,Mirror Lake,435.783.4338/801.236.3400,mid jul-late aug,UT,Kamas
+-109.985,37.609,Natural Bridges,,,UT,Blanding
+-111.636,40.642,Spruces,801.733.2660/801.236.3400,early jun-mid sep,UT,Salt Lake City
+-111.588,40.615,Redman,801.733.2660/801.236.3400,mid jun-late aug,UT,Murray
+-112.988,37.196,Watchman - Zion National Park,435.772.3256,all year,UT,Springdale
+-72.788,44.559,Smugglers Notch State Park,802.253.4014,mid may-mid oct,VT,Stowe
+-72.254,44.246,Ricker Pond State Park,802.584.3821,mid may-late aug,VT,Groton
+-72.765,43.112,Jamaica State Park,802.874.4600,early may-mid oct,VT,Jamaica
+-72.401,43.637,Quechee State Park,802.295.2990,early jun-mid oct,VT,White River Jct
+-72.289,44.32,New Discovery State Park,802.426.3042,early jun-late aug,VT,Marshfield
+-73.295,44.688,Grand Isle State Park,802.372.4300,mid may-late sep,VT,Grand Isle
+-73.027,43.919,Moosalamoo,802.388.4362/802.747.6700,,VT,Ripton
+-72.81,43.163,Winhall Brook,802.824.4570,mid may-late sep,VT,Jamaica
+-73.221,44.277,Mt. Philo State Park,802.425.2390,early jun-mid oct,VT,Charlotte
+-71.857,44.796,Brighton State Park,802.723.4360,early jun-late sep,VT,Island Pond
+-76.052,36.918,First Landing State Park,757.412.2300,all year,VA,Virginia Beach
+-78.439,38.527,Big Meadows - Shenandoah National Park,540.999.3231,early may-late nov,VA,Stanley
+-78.311,36.595,North Bend Park - Kerr Reservoir,434.738.0059,early apr-late oct,VA,Boydton
+-79.595,37.09,Smith Mountain Lake,540.291.2188,all year,VA,Huddleston
+-78.477,38.436,Lewis Mountain - Shenandoah National Park,540.999.3273,,VA,Stanardsville
+-78.669,38.246,Loft Mountain - Shenandoah National Park,434.823.4675,mid may-late oct,VA,Crozet
+-79.534,37.574,Cave Mountain Lake,540.291.2188/540.265.5100,early apr-late oct,VA,Natural Bridge Station
+-81.485,36.639,Grayson Highlands State Park,540.579.7092,all year,VA,Mouth Of Wilson
+-77.572,37.366,Pocahontas State Park,804.796.4255,all year,VA,Chesterfield
+-76.873,37.265,Chickahominy Riverfront Park,757-258-5020,,VA,Williamsburg
+-121.796,46.767,Cougar Rock - Mount Rainier National Park,360.569.2211,late may-late sep,WA,Enumclaw
+-122.657,48.398,Deception Pass State Park,,all year,WA,Oak Harbor
+-124.25,47.81,Hoh Oxbow- State Forest,360.374.2800,see agency web site for open/closed status,WA,Forks
+-120.728,47.812,Lake Wenatchee State Park,509.763.3101,all year,WA,Leavenworth
+-121.094,48.687,Colonial Creek - North Cascades  National Park,360.854.7200,,WA,Newhalem
+-123.696,48.162,Salt Creek County Rec Area,360.928.3441,,WA,Port Angeles
+-121.569,46.734,Ohanapecosh - Mount Rainier National Park,360.569.2211,mid may-late sep,WA,Enumclaw
+-123.855,47.965,Sol Duc - Olympic National Park,360.565.3130,,WA,Port Angeles
+-119.993,46.9,Wanapum State Park/Ginkgo Petrified Forest,509.856.2700,early apr-late oct,WA,Vantage
+-118.66,48.72,Curlew Lake State Park,509.775.3592,early apr-late oct,WA,Republic
+-81.072,37.853,Grandview/Glade - New River National Scenic River,304.465.0508,,WV,Beaver
+-79.679,38.93,Bear Heaven,304.478.3251/304.636.1800,,WV,Elkins
+-78.499,39.116,Hawk,540.984.4101/540.265.5100,,WV,Intermont
+-79.705,38.579,Island,304.456.3335/304.636.1800,,WV,Bartow
+-79.588,38.707,Spruce Knob Lake,304.478.3251/304.636.1800,mid apr-late sep,WV,Whitmer
+-80.065,39.04,Audra State Park,304.457.1162,mid apr-mid oct,WV,Belington
+-80.575,38.635,Bakers Run,304.765.5631,,WV,Sutton
+-82.345,38.308,Beech Fork State Park,304.522.0303,mid apr-mid oct,WV,Barboursville
+-80.366,38.667,Holly River State Park,304.493.6353,mid apr-mid oct,WV,Hacker Valley
+-80.072,38.655,Kumbrabow State Forest,304.335.2219,,WV,Valley Head
+-92.779,45.772,St. Croix - Governor Knowles State Forest,888.936.7463,,WI,Grantsburg
+-90.671,44.421,East Fork - Black River State Forest,,all year,WI,Hatfield
+-90.008,43.946,Buckhorn State Park,608.565.2789,all year,WI,Necedah
+-92.691,45.014,Willow River State Park,715.386.5931,all year,WI,Hudson
+-89.879,42.662,Blackhawk Memorial Park - Woodford,608.465.3472,,WI,Woodford
+-88.694,42.784,Whitewater Lake -  Kettle Moraine State Forest,262.594.6200,,WI,Whitewater
+-87.826,42.818,Cliffside Park,262.886.8440,,WI,Caledonia
+-89.738,43.433,Devils Lake State Park,608.356.8301,all year,WI,Baraboo
+-89.845,43.026,Blue Mound State Park,608.437.5711,all year,WI,Barneveld
+-87.718,43.673,Kohler - Andrae State Park,920.451.4080,all year,WI,Sheboygan
+-105.011,42.485,Glendo State Park,307.735.4433,early may-late oct,WY,Glendo
+-109.446,41.35,Firehole Canyon - Flaming Gorge Reservoir,435.784.3445/435.789.1181,mid may-late aug,WY,
+-108.162,43.404,Boysen State Park,307.876.2796,all year,WY,Shoshoni
+-105.376,41.157,Vedauwoo,307.745.2300/307.745.2300,,WY,Laramie
+-106.295,41.355,Sugarloaf,307.745.2300/307.745.2300,,WY,Centennial
+-109.244,44.502,Buffalo Bill State Park,307.587.9227,early may-late oct,WY,Cody
+-106.247,41.373,Brooklyn Lake,307.745.2300/307.745.2300,early june - late aug,WY,Centennial
+-110.808,43.212,East Table Creek,307.739.5400/307.739.5500,,WY,Hoback Junction
+-108.837,42.737,Sinks Canyon,307.332.5460/307.527.6241,mid may-mid sep,WY,Lander
+-106.775,42.519,Fremont Canyon - Alcova Reservoir,307.235.9311,,WY,Alcova
