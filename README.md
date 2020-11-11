@@ -1,7 +1,7 @@
 # National Park and Campgrounds Mapper 
 Wanderlust America provides travelers with a curated listing of the top 10 campsites in each of the 50 states.  Users may enter rating for the campsites provided, and can look up National Parks. Deployed link: https://campground-mapper.herokuapp.com/
 
-![Wanderlust America](./readme-asset/wanderlust-screenshot.png)
+![Screen Shot 2020-11-11 at 10 33 57 AM (2)](https://user-images.githubusercontent.com/71027264/98838345-c4344e80-2409-11eb-954d-727fa38fa669.png)
 
 ## Table of Contents
 1. [Goal](#Goal)
